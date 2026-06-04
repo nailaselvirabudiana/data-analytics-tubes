@@ -1,0 +1,253 @@
+{
+  "components": {
+    "schemas": {
+      "ModelOd17045IndeksPmbngnnManusiaMenggunakanUhhSp2010KabBody": {
+        "properties": {
+          "indeks_pembangunan_manusia": {
+            "type": "float"
+          },
+          "kode_kabupaten_kota": {
+            "type": "integer"
+          },
+          "kode_provinsi": {
+            "type": "integer"
+          },
+          "nama_kabupaten_kota": {
+            "type": "string"
+          },
+          "nama_provinsi": {
+            "type": "string"
+          },
+          "satuan": {
+            "type": "string"
+          },
+          "tahun": {
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "ModelOd17045IndeksPmbngnnManusiaMenggunakanUhhSp2010KabResponse": {
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "indeks_pembangunan_manusia": {
+            "type": "float"
+          },
+          "kode_kabupaten_kota": {
+            "type": "integer"
+          },
+          "kode_provinsi": {
+            "type": "integer"
+          },
+          "nama_kabupaten_kota": {
+            "type": "string"
+          },
+          "nama_provinsi": {
+            "type": "string"
+          },
+          "satuan": {
+            "type": "string"
+          },
+          "tahun": {
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "bearerAuth": {
+        "bearerFormat": "JWT",
+        "scheme": "bearer",
+        "type": "http"
+      }
+    }
+  },
+  "info": {
+    "contact": {
+      "email": "data.jabardigitalservice@gmail.com"
+    },
+    "description": "This is Core Data Jawa Barat API Documentation, <br>Made with ❤ by Jabar Digital Service.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    },
+    "title": "Core Data Jawa Barat API Documentation",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.0",
+  "paths": {
+    "/od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab": {
+      "get": {
+        "parameters": [
+          {
+            "description": "Limit value is number. ex : ?limit=100",
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "description": "Skip value is number. ex : ?skip=100",
+            "in": "query",
+            "name": "skip",
+            "required": false,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "description": "Sort value is string with rule column-name:order. ex : ?sort=id:asc",
+            "in": "query",
+            "name": "sort",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Where value is object. ex : ?where={'name':'john', 'dob':'1990-12-31'}",
+            "in": "query",
+            "name": "where",
+            "required": false,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "description": "Count value is boolean. ex : ?count=true",
+            "in": "query",
+            "name": "count",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "description": "Search value is string. ex : ?search=education",
+            "in": "query",
+            "name": "search",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Exclude value is array string separated by comma. ex : ?exclude=polygon_json,latitude,longitude",
+            "in": "query",
+            "name": "exclude",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Download value is string, pick one of : csv or pdf. ex : ?download=csv",
+            "in": "query",
+            "name": "download",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {
+                      "$ref": "#/components/schemas/ModelOd17045IndeksPmbngnnManusiaMenggunakanUhhSp2010KabResponse"
+                    },
+                    "error": {
+                      "type": "integer"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "metadata": {
+                      "type": "object"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Od17045IndeksPmbngnnManusiaMenggunakanUhhSp2010Kab"
+        ]
+      }
+    },
+    "/od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab/{id}": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "exclude",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "data": {
+                      "$ref": "#/components/schemas/ModelOd17045IndeksPmbngnnManusiaMenggunakanUhhSp2010KabResponse"
+                    },
+                    "error": {
+                      "type": "integer"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "tags": [
+          "Od17045IndeksPmbngnnManusiaMenggunakanUhhSp2010Kab"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "/api-backend/bigdata/bps/"
+    }
+  ]
+}
