@@ -1,0 +1,4063 @@
+{
+  "source_doc_url": "https://data.jabarprov.go.id/api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json",
+  "source_data_url": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab",
+  "ingest_time_utc": "2026-06-05T15:50:42.985793Z",
+  "metadata": {
+    "endpoint": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab",
+    "limit": 5000,
+    "pages": 1,
+    "rows": 405
+  },
+  "data": [
+    {
+      "id": 1,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 64.35,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 2,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 60.69,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 3,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 58.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 4,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 67.28,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 5,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 60.23,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 6,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 60.21,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 7,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 64.64,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 8,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 64.4,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 9,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 63.64,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 10,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 62.3,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 11,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 66.04,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 12,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 60.86,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 13,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 63.54,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 14,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 64.93,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 15,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 64.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 16,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 67.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 17,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 61.34,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 18,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 0.0,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 19,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 71.25,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 20,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 67.94,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 21,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 77.49,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 22,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 70.74,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 23,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 76.77,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 24,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 76.66,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 25,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 73.76,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 26,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 66.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 27,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 66.81,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 28,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 64.78,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 29,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 61.14,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 30,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 59.38,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 31,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 67.78,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 32,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 60.55,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 33,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 61.05,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 34,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 65.48,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 35,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 65.04,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 36,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 64.17,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 37,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 62.67,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 38,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 66.16,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 39,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 61.47,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 40,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 64.21,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 41,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 65.51,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 42,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 65.21,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 43,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 68.66,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 44,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 62.36,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 45,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 0.0,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 46,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 71.72,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 47,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 68.67,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 48,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 78.13,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 49,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 71.49,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 50,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 77.48,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 51,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 76.96,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 52,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 74.41,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 53,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 67.18,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 54,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 67.15,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 55,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 65.66,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 56,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 62.27,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 57,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 60.28,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 58,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 68.13,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 59,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 61.04,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 60,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 61.69,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 61,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 66.29,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 62,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 65.6,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 63,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 64.48,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 64,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 63.13,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 65,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 67.36,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 66,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 62.09,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 67,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 64.86,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 68,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 66.3,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 69,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 65.97,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 70,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 69.38,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 71,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 63.17,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 72,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 0.0,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 73,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 72.25,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 74,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 69.74,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 75,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 78.3,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 76,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 71.97,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 77,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 77.71,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 78,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 77.28,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 79,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 74.99,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 80,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 67.84,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 81,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 67.53,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 82,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 66.74,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 83,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 63.63,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 84,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 61.68,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 85,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 68.58,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 86,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 61.67,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 87,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 62.4,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 88,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 67.2,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 89,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 66.16,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 90,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 65.06,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 91,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 63.71,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 92,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 68.47,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 93,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 62.98,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 94,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 65.48,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 95,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 67.09,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 96,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 66.61,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 97,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 70.09,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 98,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 63.93,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 99,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 64.73,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 100,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 72.86,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 101,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 70.81,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 102,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 78.55,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 103,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 72.27,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 104,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 78.63,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 105,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 78.27,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 106,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 75.85,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 107,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 68.63,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 108,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 68.01,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 109,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 67.36,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 110,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 64.07,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 111,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 62.08,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 112,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 69.06,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 113,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 62.23,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 114,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 62.79,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 115,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 67.64,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 116,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 66.63,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 117,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 65.53,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 118,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 64.07,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 119,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 68.76,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 120,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 63.55,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 121,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 65.8,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 122,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 67.32,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 123,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 67.08,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 124,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 70.51,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 125,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 64.27,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 126,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 65.29,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 127,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 73.1,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 128,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 71.19,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 129,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 78.98,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 130,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 72.93,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 131,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 78.84,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 132,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 78.58,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 133,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 76.06,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 134,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 69.04,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 135,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 68.34,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 136,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 67.77,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 137,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 64.44,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 138,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 62.42,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 139,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 70.05,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 140,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 63.21,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 141,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 63.17,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 142,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 68.02,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 143,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 67.19,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 144,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 66.07,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 145,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 64.75,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 146,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 69.29,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 147,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 64.36,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 148,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 66.52,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 149,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 67.84,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 150,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 67.66,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 151,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 71.19,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 152,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 65.23,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 153,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 65.62,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 154,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 73.65,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 155,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 71.84,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 156,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 79.67,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 157,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 73.34,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 158,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 79.63,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 159,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 79.11,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 160,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 76.42,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 161,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 69.99,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 162,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 69.31,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 163,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 68.32,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 164,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 65.13,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 165,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 62.92,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 166,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 70.69,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 167,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 63.64,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 168,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 63.57,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 169,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 68.45,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 170,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 67.51,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 171,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 66.7,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 172,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 65.25,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 173,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 69.45,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 174,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 64.78,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 175,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 67.14,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 176,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 68.56,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 177,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 68.19,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 178,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 71.83,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 179,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 65.81,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 180,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 65.79,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 181,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 74.5,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 182,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 72.33,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 183,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 80.13,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 184,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 73.7,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 185,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 79.95,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 186,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 79.6,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 187,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 76.69,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 188,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 70.58,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 189,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 70.09,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 190,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 69.13,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 191,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 65.49,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 192,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 63.7,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 193,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 71.02,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 194,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 64.52,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 195,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 64.14,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 196,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 68.87,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 197,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 67.78,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 198,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 67.39,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 199,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 65.92,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 200,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 70.07,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 201,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 65.58,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 202,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 67.73,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 203,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 69.28,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 204,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 69.17,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 205,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 72.63,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 206,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 66.63,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 207,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 66.6,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 208,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 75.16,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 209,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 73.03,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 210,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 80.31,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 211,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 74.0,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 212,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 80.3,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 213,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 79.83,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 214,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 76.95,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 215,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 71.51,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 216,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 70.79,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 217,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 69.69,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 218,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 66.05,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 219,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 64.62,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 220,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 71.75,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 221,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 65.42,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 222,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 65.0,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 223,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 69.63,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 224,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 68.55,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 225,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 68.05,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 226,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 66.72,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 227,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 70.99,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 228,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 66.36,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 229,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 68.31,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 230,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 69.98,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 231,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 69.89,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 232,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 73.49,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 233,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 67.46,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 234,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 67.44,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 235,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 75.66,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 236,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 73.55,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 237,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 81.06,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 238,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 74.35,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 239,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 81.04,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 240,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 80.29,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 241,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 77.56,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 242,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 72.03,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 243,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 71.25,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 244,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 70.65,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 245,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 66.87,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 246,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 65.38,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 247,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 72.41,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 248,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 66.22,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 249,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 65.64,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 250,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 70.39,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 251,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 69.12,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 252,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 68.69,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 253,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 67.52,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 254,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 71.46,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 255,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 66.97,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 256,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 68.69,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 257,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 70.67,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 258,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 70.86,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 259,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 73.99,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 260,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 68.27,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 261,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 68.21,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 262,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 76.23,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 263,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 74.31,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 264,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 81.62,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 265,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 74.92,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 266,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 81.59,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 267,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 80.82,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 268,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 78.11,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 269,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 72.84,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 270,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 71.75,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 271,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 70.4,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 272,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 66.88,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 273,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 65.36,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 274,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 72.39,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 275,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 66.12,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 276,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 65.67,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 277,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 70.49,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 278,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 69.38,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 279,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 68.75,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 280,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 67.59,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 281,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 71.64,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 282,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 67.29,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 283,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 68.95,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 284,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 70.82,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 285,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 70.66,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 286,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 74.07,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 287,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 68.08,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 288,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 68.06,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 289,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 76.11,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 290,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 74.21,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 291,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 81.51,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 292,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 74.89,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 293,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 81.5,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 294,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 80.97,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 295,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 77.83,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 296,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 73.04,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 297,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 71.7,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 298,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 70.6,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 299,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 67.07,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 300,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 65.56,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 301,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 72.73,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 302,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 66.45,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 303,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 65.9,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 304,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 70.93,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 305,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 69.71,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 306,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 69.12,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 307,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 67.81,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 308,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 71.8,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 309,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 67.64,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 310,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 69.13,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 311,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 70.98,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 312,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 70.94,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 313,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 74.45,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 314,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 68.29,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 315,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 68.28,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 316,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 76.59,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 317,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 74.6,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 318,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 81.96,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 319,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 75.25,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 320,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 81.95,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 321,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 81.37,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 322,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 78.06,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 323,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 73.31,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 324,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 71.92,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 325,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 71.2,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 326,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 67.64,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 327,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 65.94,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 328,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 73.16,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 329,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 67.41,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 330,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 66.84,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 331,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 71.45,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 332,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 70.16,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 333,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 70.06,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 334,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 68.56,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 335,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 72.69,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 336,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 68.55,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 337,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 69.87,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 338,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 71.56,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 339,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 71.74,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 340,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 75.22,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 341,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 69.04,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 342,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 69.03,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 343,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 77.17,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 344,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 75.4,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 345,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 82.5,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 346,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 75.89,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 347,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 82.46,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 348,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 81.86,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 349,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 78.77,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 350,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 73.83,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 351,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 72.55,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 352,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 71.78,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 353,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 68.49,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 354,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 66.55,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 355,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 73.74,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 356,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 68.11,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 357,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 67.76,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 358,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 72.05,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 359,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 70.72,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 360,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 70.95,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 361,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 69.13,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 362,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 73.18,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 363,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 69.25,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 364,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 70.7,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 365,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 72.09,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 366,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 72.35,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 367,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 75.76,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 368,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 69.61,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 369,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 69.38,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 370,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 77.85,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 371,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 76.32,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 372,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 83.04,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 373,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 76.46,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 374,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 83.03,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 375,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 82.38,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 376,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 79.46,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 377,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 74.47,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 378,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 73.08,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 379,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_pembangunan_manusia": 72.39,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 380,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_pembangunan_manusia": 68.97,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 381,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_pembangunan_manusia": 67.24,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 382,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_pembangunan_manusia": 74.27,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 383,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_pembangunan_manusia": 68.79,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 384,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_pembangunan_manusia": 68.36,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 385,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_pembangunan_manusia": 72.56,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 386,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_pembangunan_manusia": 71.26,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 387,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_pembangunan_manusia": 71.44,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 388,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_pembangunan_manusia": 69.74,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 389,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_pembangunan_manusia": 73.73,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 390,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_pembangunan_manusia": 69.83,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 391,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_pembangunan_manusia": 71.36,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 392,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_pembangunan_manusia": 72.65,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 393,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_pembangunan_manusia": 72.9,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 394,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_pembangunan_manusia": 76.44,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 395,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_pembangunan_manusia": 70.03,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 396,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_pembangunan_manusia": 69.85,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 397,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_pembangunan_manusia": 78.52,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 398,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_pembangunan_manusia": 76.85,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 399,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_pembangunan_manusia": 83.52,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 400,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_pembangunan_manusia": 77.08,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 401,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_pembangunan_manusia": 83.54,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 402,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_pembangunan_manusia": 82.91,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 403,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_pembangunan_manusia": 80.08,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 404,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_pembangunan_manusia": 75.04,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 405,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_pembangunan_manusia": 73.64,
+      "satuan": "POIN",
+      "tahun": 2024
+    }
+  ]
+}

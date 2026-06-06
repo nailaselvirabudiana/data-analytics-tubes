@@ -28,3 +28,343 @@
 2026-06-04 13:01:34,236 INFO Skipped raw_ipm_sp2010: checksum already ingested (existing file: raw_ipm_sp2010_20260604T053634Z.json)
 2026-06-04 13:01:34,239 INFO Memulai ekstraksi: raw_pengangguran_terbuka...
 2026-06-04 13:01:34,816 INFO Skipped raw_pengangguran_terbuka: checksum already ingested (existing file: raw_pengangguran_terbuka_20260604T053635Z.json)
+2026-06-05 22:48:48,914 INFO Memulai ekstraksi: raw_garis_kemiskinan
+2026-06-05 22:48:48,932 ERROR Gagal mengekstrak raw_garis_kemiskinan. Error: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117232390>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x117232390>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117232390>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/extract_api.py", line 223, in fetch_and_save
+    doc_response = session.get(doc_url, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117232390>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:48:48,940 INFO Memulai ekstraksi: raw_persentase_miskin
+2026-06-05 22:48:48,942 ERROR Gagal mengekstrak raw_persentase_miskin. Error: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11728b9d0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x11728b9d0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11728b9d0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/extract_api.py", line 223, in fetch_and_save
+    doc_response = session.get(doc_url, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11728b9d0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:48:48,944 INFO Memulai ekstraksi: raw_keparahan_kemiskinan
+2026-06-05 22:48:48,946 ERROR Gagal mengekstrak raw_keparahan_kemiskinan. Error: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172b9d90>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1172b9d90>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172b9d90>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/extract_api.py", line 223, in fetch_and_save
+    doc_response = session.get(doc_url, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172b9d90>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:48:48,948 INFO Memulai ekstraksi: raw_ipm_sp2010
+2026-06-05 22:48:48,950 ERROR Gagal mengekstrak raw_ipm_sp2010. Error: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bbed0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1172bbed0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bbed0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/extract_api.py", line 223, in fetch_and_save
+    doc_response = session.get(doc_url, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bbed0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:48:48,951 INFO Memulai ekstraksi: raw_pengangguran_terbuka
+2026-06-05 22:48:48,954 ERROR Gagal mengekstrak raw_pengangguran_terbuka. Error: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bdfd0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1172bdfd0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bdfd0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/extract_api.py", line 223, in fetch_and_save
+    doc_response = session.get(doc_url, timeout=60)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1172bdfd0>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:50:40,002 INFO Memulai ekstraksi: raw_garis_kemiskinan
+2026-06-05 22:50:40,815 INFO Fetched page 1 from https://data.jabarprov.go.id/api-backend/bigdata/bps/od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2 (594 total rows)
+2026-06-05 22:50:40,873 INFO Sukses: 594 rows tersimpan ke data/raw/raw_garis_kemiskinan_20260605T155040Z.json dan data/raw/raw_garis_kemiskinan_20260605T155040Z.csv
+2026-06-05 22:50:40,874 INFO Memulai ekstraksi: raw_persentase_miskin
+2026-06-05 22:50:41,549 INFO Fetched page 1 from https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17058_persentase_penduduk_miskin__kabupatenkota (405 total rows)
+2026-06-05 22:50:41,575 INFO Sukses: 405 rows tersimpan ke data/raw/raw_persentase_miskin_20260605T155041Z.json dan data/raw/raw_persentase_miskin_20260605T155041Z.csv
+2026-06-05 22:50:41,576 INFO Memulai ekstraksi: raw_keparahan_kemiskinan
+2026-06-05 22:50:42,256 INFO Fetched page 1 from https://data.jabarprov.go.id/api-backend/bigdata/bps/od_19998_indeks_keparahan_kemiskinan__kabupatenkota (567 total rows)
+2026-06-05 22:50:42,281 INFO Sukses: 567 rows tersimpan ke data/raw/raw_keparahan_kemiskinan_20260605T155042Z.json dan data/raw/raw_keparahan_kemiskinan_20260605T155042Z.csv
+2026-06-05 22:50:42,282 INFO Memulai ekstraksi: raw_ipm_sp2010
+2026-06-05 22:50:42,889 INFO Fetched page 1 from https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab (405 total rows)
+2026-06-05 22:50:43,053 INFO Sukses: 405 rows tersimpan ke data/raw/raw_ipm_sp2010_20260605T155042Z.json dan data/raw/raw_ipm_sp2010_20260605T155042Z.csv
+2026-06-05 22:50:43,054 INFO Memulai ekstraksi: raw_pengangguran_terbuka
+2026-06-05 22:50:43,712 INFO Fetched page 1 from https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17044_tingkat_pengangguran_terbuka__kabupatenkota (424 total rows)
+2026-06-05 22:50:43,736 INFO Sukses: 424 rows tersimpan ke data/raw/raw_pengangguran_terbuka_20260605T155043Z.json dan data/raw/raw_pengangguran_terbuka_20260605T155043Z.csv

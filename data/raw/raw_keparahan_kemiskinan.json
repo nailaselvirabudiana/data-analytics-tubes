@@ -1,0 +1,5683 @@
+{
+  "source_doc_url": "https://data.jabarprov.go.id/api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json",
+  "source_data_url": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_19998_indeks_keparahan_kemiskinan__kabupatenkota",
+  "ingest_time_utc": "2026-06-05T15:50:42.262887Z",
+  "metadata": {
+    "endpoint": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_19998_indeks_keparahan_kemiskinan__kabupatenkota",
+    "limit": 5000,
+    "pages": 1,
+    "rows": 567
+  },
+  "data": [
+    {
+      "id": 1,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 2,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.68,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 3,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 4,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 5,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 6,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 7,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.8,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 8,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.81,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 9,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.63,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 10,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.87,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 11,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 12,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 13,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 14,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 15,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 16,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 17,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 18,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 19,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 20,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 21,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.08,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 22,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 23,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 24,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 25,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 26,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 27,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2004
+    },
+    {
+      "id": 28,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.86,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 29,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 1.27,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 30,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.73,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 31,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.73,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 32,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.99,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 33,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 1.03,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 34,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.68,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 35,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.71,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 36,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 1.39,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 37,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.87,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 38,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 39,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.84,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 40,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.82,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 41,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 42,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.96,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 43,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 44,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 45,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 46,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 47,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 48,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 49,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.63,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 50,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 51,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.13,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 52,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.69,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 53,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 54,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2005
+    },
+    {
+      "id": 55,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.8,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 56,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 1.01,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 57,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.82,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 58,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 59,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.81,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 60,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.85,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 61,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 62,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.72,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 63,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 1.18,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 64,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.66,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 65,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.63,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 66,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.57,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 67,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 1.45,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 68,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.7,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 69,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.84,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 70,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 71,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 72,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 73,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 74,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 75,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 76,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 77,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 78,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.09,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 79,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 80,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 81,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2006
+    },
+    {
+      "id": 82,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.71,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 83,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.85,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 84,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 85,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 86,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 87,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.71,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 88,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 89,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.87,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 90,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 1.64,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 91,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.7,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 92,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 93,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.66,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 94,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 95,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.7,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 96,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.59,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 97,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 98,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 1.05,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 99,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 100,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 101,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 102,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 103,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 104,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 105,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.09,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 106,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 107,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 108,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2007
+    },
+    {
+      "id": 109,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 1.04,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 110,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.95,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 111,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 1.17,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 112,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.71,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 113,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 1.22,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 114,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.92,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 115,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 116,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.75,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 117,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.79,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 118,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 1.86,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 119,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.8,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 120,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 2.22,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 121,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.82,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 122,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 123,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 124,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 125,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 1.31,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 126,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 127,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 128,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 129,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.22,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 130,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.73,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 131,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 132,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 133,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 134,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 1.39,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 135,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 1.34,
+      "satuan": "POIN",
+      "tahun": 2008
+    },
+    {
+      "id": 136,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 137,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 138,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 139,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 140,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 141,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 142,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 143,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 144,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.81,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 145,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 146,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.63,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 147,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 148,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.79,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 149,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 150,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 151,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 152,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.85,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 153,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 154,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 155,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 156,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 157,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.88,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 158,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 159,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.05,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 160,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 161,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 1.36,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 162,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2009
+    },
+    {
+      "id": 163,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 164,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 165,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 166,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 167,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 168,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 169,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 170,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 171,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 172,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.67,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 173,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 174,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 175,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 176,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.55,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 177,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.78,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 178,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 179,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.58,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 180,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 181,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 182,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 183,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 184,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 185,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 186,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 187,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 188,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 1.17,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 189,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2010
+    },
+    {
+      "id": 190,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 191,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 192,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.64,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 193,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.5,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 194,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 195,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 196,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 197,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 198,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 199,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 200,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.5,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 201,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.6,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 202,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 203,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 204,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 205,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 206,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 207,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 208,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 209,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 210,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 211,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.64,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 212,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.07,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 213,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 214,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 215,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.94,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 216,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2011
+    },
+    {
+      "id": 217,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 218,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 219,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 220,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 221,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 222,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 223,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 224,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 225,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 226,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.69,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 227,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 228,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 229,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 230,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 231,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 232,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 233,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 234,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 235,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 236,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 237,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 238,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 239,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 240,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.04,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 241,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 242,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 1.18,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 243,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.13,
+      "satuan": "POIN",
+      "tahun": 2012
+    },
+    {
+      "id": 244,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 245,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 246,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 247,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 248,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 249,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 250,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 251,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 252,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 253,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.55,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 254,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 255,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 256,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 257,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 258,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 259,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 260,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.64,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 261,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 262,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 263,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 264,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.08,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 265,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 266,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 267,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 268,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 269,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.63,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 270,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2013
+    },
+    {
+      "id": 271,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 272,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 273,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 274,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 275,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 276,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 277,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 278,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 279,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 280,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 281,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 282,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 283,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 284,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 285,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 286,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 287,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 288,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.0,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 289,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 290,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 291,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 292,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 293,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 294,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.09,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 295,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 296,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.86,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 297,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2014
+    },
+    {
+      "id": 298,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 299,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 300,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 301,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 302,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.54,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 303,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 304,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 305,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 306,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.57,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 307,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.6,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 308,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 309,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 310,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.81,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 311,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 312,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 313,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 314,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.59,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 315,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 316,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 317,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 318,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 319,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 320,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 321,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 322,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 323,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.69,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 324,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2015
+    },
+    {
+      "id": 325,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 326,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 327,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 328,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 329,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 330,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 331,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 332,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.59,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 333,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.5,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 334,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.52,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 335,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 336,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 337,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 338,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 339,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 340,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 341,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 342,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 343,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 344,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 345,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 346,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.49,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 347,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 348,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 349,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 350,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.57,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 351,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2016
+    },
+    {
+      "id": 352,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 353,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 354,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 355,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 356,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 357,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 358,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 359,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.44,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 360,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.5,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 361,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 362,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.54,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 363,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.66,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 364,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.67,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 365,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 366,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 367,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.22,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 368,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.71,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 369,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 370,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 371,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 372,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 373,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.43,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 374,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 375,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 376,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 377,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 378,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.08,
+      "satuan": "POIN",
+      "tahun": 2017
+    },
+    {
+      "id": 379,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 380,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 381,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 382,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 383,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.37,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 384,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 385,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 386,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 387,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.55,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 388,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 389,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 390,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.6,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 391,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.51,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 392,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 393,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 394,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 395,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 396,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 397,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 398,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 399,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 400,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 401,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 402,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 403,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 404,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 405,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2018
+    },
+    {
+      "id": 406,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 407,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 408,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 409,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 410,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 411,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 412,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 413,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 414,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 415,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 416,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 417,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 418,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 419,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 420,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 421,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 422,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.33,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 423,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 424,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 425,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 426,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 427,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 428,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.1,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 429,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.04,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 430,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 431,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 432,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.1,
+      "satuan": "POIN",
+      "tahun": 2019
+    },
+    {
+      "id": 433,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 434,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 435,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 436,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 437,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 438,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.11,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 439,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 440,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 441,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 442,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 443,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 444,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.56,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 445,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 446,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 447,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 448,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 449,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 450,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 451,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 452,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.22,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 453,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.13,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 454,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.4,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 455,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 456,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.06,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 457,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 458,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.39,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 459,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2020
+    },
+    {
+      "id": 460,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 461,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 462,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 463,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 464,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 465,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 466,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 467,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 468,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.47,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 469,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.77,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 470,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 471,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.66,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 472,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.5,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 473,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 474,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 475,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 476,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 477,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 478,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 479,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 480,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 481,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.68,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 482,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.16,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 483,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.07,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 484,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 485,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.69,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 486,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2021
+    },
+    {
+      "id": 487,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 488,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.19,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 489,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 490,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 491,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 492,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 493,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 494,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 495,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.59,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 496,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 497,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 498,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.48,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 499,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 500,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 501,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 502,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 503,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 504,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 505,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 506,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.38,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 507,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 508,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.3,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 509,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 510,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.1,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 511,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 512,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.65,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 513,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2022
+    },
+    {
+      "id": 514,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 515,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 516,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 517,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 518,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 519,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 520,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 521,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.42,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 522,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 523,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 524,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 525,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.62,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 526,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.55,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 527,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 528,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.22,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 529,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 530,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.34,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 531,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.27,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 532,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 533,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.31,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 534,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 535,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 536,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.13,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 537,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.03,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 538,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.1,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 539,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.32,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 540,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.12,
+      "satuan": "POIN",
+      "tahun": 2023
+    },
+    {
+      "id": 541,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 542,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 543,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "indeks_keparahan_kemiskinan": 0.41,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 544,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.09,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 545,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 546,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.15,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 547,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "indeks_keparahan_kemiskinan": 0.2,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 548,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "indeks_keparahan_kemiskinan": 0.53,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 549,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "indeks_keparahan_kemiskinan": 0.36,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 550,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 551,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "indeks_keparahan_kemiskinan": 0.45,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 552,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "indeks_keparahan_kemiskinan": 0.54,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 553,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "indeks_keparahan_kemiskinan": 0.46,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 554,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "indeks_keparahan_kemiskinan": 0.35,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 555,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "indeks_keparahan_kemiskinan": 0.28,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 556,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "indeks_keparahan_kemiskinan": 0.17,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 557,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "indeks_keparahan_kemiskinan": 0.23,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 558,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 559,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "indeks_keparahan_kemiskinan": 0.24,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 560,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "indeks_keparahan_kemiskinan": 0.18,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 561,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "indeks_keparahan_kemiskinan": 0.14,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 562,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "indeks_keparahan_kemiskinan": 0.25,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 563,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 564,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "indeks_keparahan_kemiskinan": 0.07,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 565,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "indeks_keparahan_kemiskinan": 0.21,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 566,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "indeks_keparahan_kemiskinan": 0.26,
+      "satuan": "POIN",
+      "tahun": 2024
+    },
+    {
+      "id": 567,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "indeks_keparahan_kemiskinan": 0.29,
+      "satuan": "POIN",
+      "tahun": 2024
+    }
+  ]
+}

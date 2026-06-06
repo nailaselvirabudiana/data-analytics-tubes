@@ -1,0 +1,119 @@
+2026-06-05 22:14:14,915 INFO Loading raw_garis_kemiskinan
+2026-06-05 22:14:14,920 INFO Raw source for raw_garis_kemiskinan is not records; fetching https://data.jabarprov.go.id/api-backend/bigdata/bps/od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2
+2026-06-05 22:14:14,946 ERROR Preprocessing failed
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1235e6650>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/bigdata/bps/od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2?limit=5000&skip=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1235e6650>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/refinormdn/data-analytics-tubes/scripts/preprocess_data.py", line 899, in <module>
+    outputs = run(parse_args())
+              ^^^^^^^^^^^^^^^^^
+  File "/Users/refinormdn/data-analytics-tubes/scripts/preprocess_data.py", line 835, in run
+    raw_df, source_info = load_source_dataframe(
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/refinormdn/data-analytics-tubes/scripts/preprocess_data.py", line 320, in load_source_dataframe
+    df = fetch_openapi_records(endpoint, limit=fetch_limit, timeout=fetch_timeout)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/refinormdn/data-analytics-tubes/scripts/preprocess_data.py", line 245, in fetch_openapi_records
+    response = session.get(endpoint, params=params, timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='data.jabarprov.go.id', port=443): Max retries exceeded with url: /api-backend/bigdata/bps/od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2?limit=5000&skip=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1235e6650>: Failed to resolve 'data.jabarprov.go.id' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-06-05 22:51:02,515 INFO Loading raw_garis_kemiskinan
+2026-06-05 22:51:02,550 INFO Cleaned 594 rows for raw_garis_kemiskinan
+2026-06-05 22:51:02,551 INFO Loading raw_persentase_miskin
+2026-06-05 22:51:02,563 INFO Cleaned 405 rows for raw_persentase_miskin
+2026-06-05 22:51:02,564 INFO Loading raw_keparahan_kemiskinan
+2026-06-05 22:51:02,578 INFO Cleaned 567 rows for raw_keparahan_kemiskinan
+2026-06-05 22:51:02,580 INFO Loading raw_ipm_sp2010
+2026-06-05 22:51:02,593 INFO Cleaned 405 rows for raw_ipm_sp2010
+2026-06-05 22:51:02,595 INFO Loading raw_pengangguran_terbuka
+2026-06-05 22:51:02,737 INFO Cleaned 424 rows for raw_pengangguran_terbuka
+2026-06-05 22:51:03,128 INFO Preprocessing completed: /Users/refinormdn/data-analytics-tubes/data/processed/panel_kemiskinan_jabar_preprocessed.csv
+2026-06-05 22:52:42,952 INFO Loading raw_garis_kemiskinan
+2026-06-05 22:52:42,972 INFO Cleaned 594 rows for raw_garis_kemiskinan
+2026-06-05 22:52:42,973 INFO Loading raw_persentase_miskin
+2026-06-05 22:52:42,982 INFO Cleaned 405 rows for raw_persentase_miskin
+2026-06-05 22:52:42,983 INFO Loading raw_keparahan_kemiskinan
+2026-06-05 22:52:42,992 INFO Cleaned 567 rows for raw_keparahan_kemiskinan
+2026-06-05 22:52:42,993 INFO Loading raw_ipm_sp2010
+2026-06-05 22:52:43,001 INFO Cleaned 405 rows for raw_ipm_sp2010
+2026-06-05 22:52:43,002 INFO Loading raw_pengangguran_terbuka
+2026-06-05 22:52:43,011 INFO Cleaned 424 rows for raw_pengangguran_terbuka
+2026-06-05 22:52:43,076 INFO Preprocessing completed: /Users/refinormdn/data-analytics-tubes/data/processed/panel_kemiskinan_jabar_preprocessed.csv
+2026-06-05 23:48:45,850 INFO Loading raw_garis_kemiskinan
+2026-06-05 23:48:45,869 INFO Cleaned 594 rows for raw_garis_kemiskinan
+2026-06-05 23:48:45,870 INFO Loading raw_persentase_miskin
+2026-06-05 23:48:45,880 INFO Cleaned 405 rows for raw_persentase_miskin
+2026-06-05 23:48:45,880 INFO Loading raw_keparahan_kemiskinan
+2026-06-05 23:48:45,890 INFO Cleaned 567 rows for raw_keparahan_kemiskinan
+2026-06-05 23:48:45,891 INFO Loading raw_ipm_sp2010
+2026-06-05 23:48:45,899 INFO Cleaned 405 rows for raw_ipm_sp2010
+2026-06-05 23:48:45,900 INFO Loading raw_pengangguran_terbuka
+2026-06-05 23:48:45,909 INFO Cleaned 424 rows for raw_pengangguran_terbuka
+2026-06-05 23:48:45,973 INFO Preprocessing completed: /Users/refinormdn/data-analytics-tubes/data/processed/panel_kemiskinan_jabar_preprocessed.csv
+2026-06-06 12:46:31,630 INFO Loading raw_garis_kemiskinan
+2026-06-06 12:46:31,659 INFO Cleaned 594 rows for raw_garis_kemiskinan
+2026-06-06 12:46:31,660 INFO Loading raw_persentase_miskin
+2026-06-06 12:46:31,674 INFO Cleaned 405 rows for raw_persentase_miskin
+2026-06-06 12:46:31,675 INFO Loading raw_keparahan_kemiskinan
+2026-06-06 12:46:31,689 INFO Cleaned 567 rows for raw_keparahan_kemiskinan
+2026-06-06 12:46:31,690 INFO Loading raw_ipm_sp2010
+2026-06-06 12:46:31,703 INFO Cleaned 405 rows for raw_ipm_sp2010
+2026-06-06 12:46:31,704 INFO Loading raw_pengangguran_terbuka
+2026-06-06 12:46:31,716 INFO Cleaned 424 rows for raw_pengangguran_terbuka
+2026-06-06 12:46:31,777 INFO Preprocessing completed: /Users/refinormdn/data-analytics-tubes/data/processed/panel_kemiskinan_jabar_preprocessed.csv

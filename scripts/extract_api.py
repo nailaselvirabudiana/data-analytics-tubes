@@ -1,166 +1,310 @@
-import requests
-import pandas as pd
-import os
-import json
-import hashlib
 import csv
-from datetime import datetime
+import hashlib
+import json
 import logging
-from pathlib import Path
+import os
 import re
+import shutil
+from datetime import datetime
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
 
-# 1. Pastikan folder arsitektur mentah tersedia sesuai standar tugas besar
-os.makedirs('data/raw', exist_ok=True)
-os.makedirs('data/manifest', exist_ok=True)
-os.makedirs('logs', exist_ok=True)
+import pandas as pd
+import requests
 
-# Setup basic logging
-logfile = Path('logs/ingest.log')
+
+# 1. Pastikan folder arsitektur mentah tersedia sesuai standar tugas besar.
+os.makedirs("data/raw", exist_ok=True)
+os.makedirs("data/manifest", exist_ok=True)
+os.makedirs("logs", exist_ok=True)
+
+logfile = Path("logs/ingest.log")
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
+    format="%(asctime)s %(levelname)s %(message)s",
     handlers=[
-        logging.FileHandler(logfile, encoding='utf-8'),
-        logging.StreamHandler()
-    ]
+        logging.FileHandler(logfile, encoding="utf-8"),
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger(__name__)
 
-# Manifest path
-MANIFEST_PATH = Path('data/manifest/ingest_manifest.csv')
-if not MANIFEST_PATH.exists():
-    with MANIFEST_PATH.open('w', encoding='utf-8', newline='') as mf:
-        writer = csv.writer(mf)
-        writer.writerow(['ingest_time', 'logical_name', 'stored_filename', 'source_url', 'checksum', 'status', 'notes'])
+BASE_URL = "https://data.jabarprov.go.id"
+RAW_DIR = Path("data/raw")
+MANIFEST_PATH = Path("data/manifest/ingest_manifest.csv")
 
-# 2. Masukkan 5 URL API lengkap dari Open Data Jabar
-base_url = "https://data.jabarprov.go.id"
-api_endpoints = {
-    "raw_garis_kemiskinan": f"{base_url}/api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json",
-    "raw_persentase_miskin": f"{base_url}/api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json",
-    "raw_keparahan_kemiskinan": f"{base_url}/api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json",
-    "raw_ipm_sp2010": f"{base_url}/api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json",
-    "raw_pengangguran_terbuka": f"{base_url}/api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json"
+if not MANIFEST_PATH.exists():
+    with MANIFEST_PATH.open("w", encoding="utf-8", newline="") as mf:
+        writer = csv.writer(mf)
+        writer.writerow(
+            [
+                "ingest_time",
+                "logical_name",
+                "stored_filename",
+                "source_url",
+                "checksum",
+                "status",
+                "notes",
+            ]
+        )
+
+
+# 2. URL ini adalah dokumen OpenAPI dari Open Data Jabar.
+# Script akan membaca dokumen ini untuk menemukan endpoint record data aktual.
+api_docs = {
+    "raw_garis_kemiskinan": f"{BASE_URL}/api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json",
+    "raw_persentase_miskin": f"{BASE_URL}/api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json",
+    "raw_keparahan_kemiskinan": f"{BASE_URL}/api-backend/static/doc/bps-od_19998_indeks_keparahan_kemiskinan__kabupatenkota.json",
+    "raw_ipm_sp2010": f"{BASE_URL}/api-backend/static/doc/bps-od_17045_indeks_pmbngnn_manusia_menggunakan_uhh_sp2010__kab.json",
+    "raw_pengangguran_terbuka": f"{BASE_URL}/api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json",
 }
 
-# 3. Fungsi ekstraksi dan penyimpanan
-def fetch_and_save(filename, url):
-    logger.info(f"Memulai ekstraksi: {filename}...")
-    try:
-        response = requests.get(url)
+
+def extract_records(payload: Any) -> List[Dict[str, Any]]:
+    """Extract tabular records from common Open Data Jabar response shapes."""
+    if isinstance(payload, list):
+        return [row for row in payload if isinstance(row, dict)]
+
+    if not isinstance(payload, dict):
+        return []
+
+    data = payload.get("data")
+    if isinstance(data, list):
+        return [row for row in data if isinstance(row, dict)]
+    if isinstance(data, dict):
+        return [data]
+
+    for value in payload.values():
+        if isinstance(value, list):
+            rows = [row for row in value if isinstance(row, dict)]
+            if rows:
+                return rows
+
+    return []
+
+
+def resolve_data_endpoint(openapi_doc: Dict[str, Any]) -> str:
+    """Resolve the collection endpoint from an OpenAPI document."""
+    servers = openapi_doc.get("servers") or [{"url": "/api-backend/bigdata/bps/"}]
+    server_url = servers[0].get("url", "/api-backend/bigdata/bps/")
+
+    collection_paths = [
+        path
+        for path in openapi_doc.get("paths", {})
+        if "{id}" not in path
+    ]
+    if not collection_paths:
+        raise ValueError("Tidak menemukan collection path pada dokumen OpenAPI.")
+
+    collection_path = sorted(collection_paths)[0]
+    if server_url.startswith("http"):
+        return server_url.rstrip("/") + "/" + collection_path.lstrip("/")
+
+    return BASE_URL.rstrip("/") + "/" + server_url.strip("/") + "/" + collection_path.lstrip("/")
+
+
+def fetch_all_records(session: requests.Session, endpoint: str, limit: int = 5000) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+    """Fetch all paginated records from an Open Data Jabar endpoint."""
+    rows: List[Dict[str, Any]] = []
+    skip = 0
+    page_count = 0
+    last_page_signature = None
+
+    while True:
+        params = {"limit": limit, "skip": skip}
+        response = session.get(endpoint, params=params, timeout=60)
         response.raise_for_status()
+        payload = response.json()
+        batch = extract_records(payload)
 
-        data_json = response.json()
+        if not batch:
+            break
 
-        # compute checksum of the raw json bytes
-        raw_bytes = json.dumps(data_json, ensure_ascii=False).encode('utf-8')
-        checksum = hashlib.sha256(raw_bytes).hexdigest()
+        page_signature = hashlib.sha256(
+            json.dumps(batch, sort_keys=True, ensure_ascii=False).encode("utf-8")
+        ).hexdigest()
+        if page_signature == last_page_signature:
+            raise RuntimeError(
+                "API mengembalikan halaman yang sama berulang kali; pagination dihentikan untuk mencegah loop."
+            )
 
-        # check manifest for existing checksum (idempotency)
-        already = False
-        with MANIFEST_PATH.open('r', encoding='utf-8') as mf:
-            reader = csv.DictReader(mf)
-            for row in reader:
-                if row.get('checksum') == checksum:
-                    already = True
-                    prev_file = row.get('stored_filename')
-                    break
+        rows.extend(batch)
+        page_count += 1
+        logger.info("Fetched page %s from %s (%s total rows)", page_count, endpoint, len(rows))
 
-        ingest_time = datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')
-        stored_base = f"{filename}_{ingest_time}"
-        stored_json = Path(f"data/raw/{stored_base}.json")
-        stored_csv = Path(f"data/raw/{stored_base}.csv")
+        if len(batch) < limit:
+            break
+
+        last_page_signature = page_signature
+        skip += len(batch)
+
+    metadata = {
+        "endpoint": endpoint,
+        "limit": limit,
+        "pages": page_count,
+        "rows": len(rows),
+    }
+    return rows, metadata
+
+
+def checksum_records(records: List[Dict[str, Any]]) -> str:
+    raw_bytes = json.dumps(records, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    return hashlib.sha256(raw_bytes).hexdigest()
+
+
+def checksum_already_exists(checksum: str) -> Tuple[bool, str]:
+    with MANIFEST_PATH.open("r", encoding="utf-8") as mf:
+        reader = csv.DictReader(mf)
+        for row in reader:
+            if row.get("checksum") == checksum and row.get("status") == "success":
+                return True, row.get("stored_filename", "")
+    return False, ""
+
+
+def append_manifest(
+    logical_name: str,
+    stored_filename: str,
+    source_url: str,
+    checksum: str,
+    status: str,
+    notes: str,
+) -> None:
+    with MANIFEST_PATH.open("a", encoding="utf-8", newline="") as mf:
+        writer = csv.writer(mf)
+        writer.writerow(
+            [
+                datetime.utcnow().isoformat(),
+                logical_name,
+                stored_filename,
+                source_url,
+                checksum,
+                status,
+                notes,
+            ]
+        )
+
+
+def update_latest_copy(stored_json: Path, stored_csv: Path, logical_name: str) -> None:
+    latest_json = RAW_DIR / f"{logical_name}.json"
+    latest_csv = RAW_DIR / f"{logical_name}.csv"
+    shutil.copy2(stored_json, latest_json)
+    shutil.copy2(stored_csv, latest_csv)
+
+
+def apply_retention(logical_name: str, keep_latest: int = 5) -> None:
+    pattern = re.compile(rf"^{re.escape(logical_name)}_(\d{{8}}T\d{{6}}Z)\.(json|csv)$")
+    versions: Dict[str, List[Path]] = {}
+
+    for path in RAW_DIR.iterdir():
+        match = pattern.match(path.name)
+        if match:
+            versions.setdefault(match.group(1), []).append(path)
+
+    timestamps = sorted(versions.keys(), reverse=True)
+    keep = set(timestamps[:keep_latest])
+
+    for timestamp, paths in versions.items():
+        if timestamp in keep:
+            continue
+        for path in paths:
+            try:
+                path.unlink()
+                logger.info("Deleted old version: %s", path.name)
+            except Exception:
+                logger.warning("Failed to delete old version: %s", path.name)
+
+
+def fetch_and_save(logical_name: str, doc_url: str) -> bool:
+    logger.info("Memulai ekstraksi: %s", logical_name)
+
+    try:
+        session = requests.Session()
+
+        doc_response = session.get(doc_url, timeout=60)
+        doc_response.raise_for_status()
+        openapi_doc = doc_response.json()
+
+        data_endpoint = resolve_data_endpoint(openapi_doc)
+        records, metadata = fetch_all_records(session, data_endpoint)
+
+        if not records:
+            raise RuntimeError(f"Tidak ada record data dari endpoint: {data_endpoint}")
+
+        checksum = checksum_records(records)
+        already, prev_file = checksum_already_exists(checksum)
 
         if already:
-            logger.info(f"Skipped {filename}: checksum already ingested (existing file: {prev_file})")
-            with MANIFEST_PATH.open('a', encoding='utf-8', newline='') as mf:
-                writer = csv.writer(mf)
-                writer.writerow([datetime.utcnow().isoformat(), filename, prev_file, url, checksum, 'skipped', 'duplicate_checksum'])
-            return
+            logger.info("Skipped %s: checksum sudah pernah diingest (%s)", logical_name, prev_file)
+            append_manifest(
+                logical_name=logical_name,
+                stored_filename=prev_file,
+                source_url=data_endpoint,
+                checksum=checksum,
+                status="skipped",
+                notes="duplicate_checksum",
+            )
+            return True
 
-        # Simpan versi mentah JSON sebagai backup aslinya (versioned filename)
-        with stored_json.open('w', encoding='utf-8') as f:
-            json.dump(data_json, f, ensure_ascii=False, indent=2)
+        ingest_time = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        stored_base = f"{logical_name}_{ingest_time}"
+        stored_json = RAW_DIR / f"{stored_base}.json"
+        stored_csv = RAW_DIR / f"{stored_base}.csv"
 
-        # Helper: konversi berbagai struktur JSON ke DataFrame dengan aman
-        def to_dataframe(obj):
-            if isinstance(obj, list):
-                try:
-                    return pd.json_normalize(obj)
-                except Exception:
-                    return pd.DataFrame(obj)
+        raw_payload = {
+            "source_doc_url": doc_url,
+            "source_data_url": data_endpoint,
+            "ingest_time_utc": datetime.utcnow().isoformat() + "Z",
+            "metadata": metadata,
+            "data": records,
+        }
 
-            if isinstance(obj, dict):
-                if 'data' in obj and isinstance(obj['data'], list):
-                    return pd.json_normalize(obj['data'])
+        with stored_json.open("w", encoding="utf-8") as handle:
+            json.dump(raw_payload, handle, ensure_ascii=False, indent=2)
 
-                for v in obj.values():
-                    if isinstance(v, list):
-                        try:
-                            return pd.json_normalize(v)
-                        except Exception:
-                            return pd.DataFrame(v)
-
-                try:
-                    return pd.json_normalize(obj)
-                except Exception:
-                    return pd.DataFrame([obj])
-
-            return pd.DataFrame([obj])
-
-        df = to_dataframe(data_json)
+        df = pd.json_normalize(records)
         df.to_csv(stored_csv, index=False)
 
-        # Update latest pointer (overwrite non-versioned files)
-        latest_json = Path(f"data/raw/{filename}.json")
-        latest_csv = Path(f"data/raw/{filename}.csv")
-        try:
-            stored_json.replace(latest_json)
-            stored_csv.replace(latest_csv)
-        except Exception:
-            # fallback to copy if replace fails
-            with stored_json.open('rb') as src, latest_json.open('wb') as dst:
-                dst.write(src.read())
-            with stored_csv.open('rb') as src, latest_csv.open('wb') as dst:
-                dst.write(src.read())
+        update_latest_copy(stored_json, stored_csv, logical_name)
 
-        logger.info(f"✅ Sukses! Data tersimpan: {stored_json} dan {stored_csv} (latest updated)")
+        logger.info(
+            "Sukses: %s rows tersimpan ke %s dan %s",
+            len(df),
+            stored_json,
+            stored_csv,
+        )
 
-        # append manifest
-        with MANIFEST_PATH.open('a', encoding='utf-8', newline='') as mf:
-            writer = csv.writer(mf)
-            writer.writerow([datetime.utcnow().isoformat(), filename, stored_json.name, url, checksum, 'success', ''])
+        append_manifest(
+            logical_name=logical_name,
+            stored_filename=stored_json.name,
+            source_url=data_endpoint,
+            checksum=checksum,
+            status="success",
+            notes=f"rows={len(df)};doc_url={doc_url}",
+        )
 
-        # Retention: keep only N latest versioned timestamps
-        N = 5
-        pattern = re.compile(rf"^{re.escape(filename)}_(\d{{8}}T\d{{6}}Z)\.(json|csv)$")
-        versions = {}
-        for p in Path('data/raw').iterdir():
-            m = pattern.match(p.name)
-            if m:
-                ts = m.group(1)
-                versions.setdefault(ts, []).append(p)
+        apply_retention(logical_name)
+        return True
 
-        timestamps = sorted(versions.keys(), reverse=True)
-        to_keep = set(timestamps[:N])
-        for ts, paths in versions.items():
-            if ts not in to_keep:
-                for p in paths:
-                    try:
-                        p.unlink()
-                        logger.info(f"Deleted old version: {p.name}")
-                    except Exception:
-                        logger.warning(f"Failed to delete old version: {p.name}")
-        
-    except Exception as e:
-        logger.exception(f"❌ Gagal mengekstrak {filename}. Error: {e}")
-        with MANIFEST_PATH.open('a', encoding='utf-8', newline='') as mf:
-            writer = csv.writer(mf)
-            writer.writerow([datetime.utcnow().isoformat(), filename, '', url, '', 'failed', str(e)])
+    except Exception as exc:
+        logger.exception("Gagal mengekstrak %s. Error: %s", logical_name, exc)
+        append_manifest(
+            logical_name=logical_name,
+            stored_filename="",
+            source_url=doc_url,
+            checksum="",
+            status="failed",
+            notes=str(exc),
+        )
+        return False
 
-# 4. Jalankan Pipeline
+
 if __name__ == "__main__":
-    print("=== Memulai Pipeline Ekstraksi Data ===\n")
-    for name, endpoint in api_endpoints.items():
-        fetch_and_save(name, endpoint)
+    print("=== Memulai Pipeline Ekstraksi Data dari API ===\n")
+    failed = []
+    for name, endpoint_doc in api_docs.items():
+        ok = fetch_and_save(name, endpoint_doc)
+        if not ok:
+            failed.append(name)
     print("\n=== Ekstraksi Selesai ===")
+    if failed:
+        raise SystemExit(f"Ekstraksi gagal untuk: {', '.join(failed)}")

@@ -1,0 +1,4253 @@
+{
+  "source_doc_url": "https://data.jabarprov.go.id/api-backend/static/doc/bps-od_17044_tingkat_pengangguran_terbuka__kabupatenkota.json",
+  "source_data_url": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17044_tingkat_pengangguran_terbuka__kabupatenkota",
+  "ingest_time_utc": "2026-06-05T15:50:43.718883Z",
+  "metadata": {
+    "endpoint": "https://data.jabarprov.go.id/api-backend/bigdata/bps/od_17044_tingkat_pengangguran_terbuka__kabupatenkota",
+    "limit": 5000,
+    "pages": 1,
+    "rows": 424
+  },
+  "data": [
+    {
+      "id": 1,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 14.26,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 2,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 10.85,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 3,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 13.82,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 4,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 17.37,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 5,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 12.18,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 6,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 8.48,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 7,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 4.39,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 8,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 10.56,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 9,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 13.64,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 10,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 7.46,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 11,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.83,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 12,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 10.45,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 13,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 7.51,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 14,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 12.76,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 15,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 17.02,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 16,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 15.12,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 17,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 18.89,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 18,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 22.15,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 19,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 16.48,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 20,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 16.56,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 21,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 16.58,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 22,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 12.8,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 23,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 18.82,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 24,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 11.37,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 25,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 9.66,
+      "satuan": "PERSEN",
+      "tahun": 2007
+    },
+    {
+      "id": 26,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 11.24,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 27,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.95,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 28,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 10.35,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 29,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 12.27,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 30,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 8.56,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 31,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.81,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 32,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 6.31,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 33,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.61,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 34,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 13.87,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 35,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 6.74,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 36,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 9.76,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 37,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 10.27,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 38,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 7.76,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 39,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 10.33,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 40,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 14.34,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 41,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.37,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 42,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 13.6,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 43,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 19.04,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 44,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 16.8,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 45,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 13.29,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 46,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 13.32,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 47,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 13.93,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 48,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 9.83,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 49,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 15.17,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 50,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 8.41,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 51,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 6.87,
+      "satuan": "PERSEN",
+      "tahun": 2009
+    },
+    {
+      "id": 52,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 10.64,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 53,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.89,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 54,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 11.21,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 55,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 10.69,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 56,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.75,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 57,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 7.79,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 58,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.12,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 59,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 7.87,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 60,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 12.97,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 61,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 5.82,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 62,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.9,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 63,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 11.29,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 64,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 8.72,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 65,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.54,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 66,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 14.88,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 67,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 9.03,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 68,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 13.31,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 69,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 17.2,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 70,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 15.65,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 71,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 12.17,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 72,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 11.67,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 73,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 12.11,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 74,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 8.34,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 75,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 13.59,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 76,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 8.16,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 77,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.87,
+      "satuan": "PERSEN",
+      "tahun": 2010
+    },
+    {
+      "id": 78,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 10.73,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 79,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.47,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 80,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 10.15,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 81,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 10.42,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 82,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 8.9,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 83,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 8.29,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 84,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 8.86,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 85,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.01,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 86,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 10.18,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 87,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 7.8,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 88,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 8.04,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 89,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 10.11,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 90,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 9.1,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 91,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.48,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 92,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 10.06,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 93,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.27,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 94,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 9.38,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 95,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 10.31,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 96,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 10.1,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 97,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 10.34,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 98,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 10.56,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 99,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 10.51,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 100,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 10.6,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 101,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 10.32,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 102,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 9.14,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 103,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 7.18,
+      "satuan": "PERSEN",
+      "tahun": 2011
+    },
+    {
+      "id": 104,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 9.07,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 105,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.74,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 106,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 11.26,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 107,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 11.6,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 108,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 6.38,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 109,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 4.9,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 110,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.28,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 111,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 7.09,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 112,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 16.04,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 113,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 6.71,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 114,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.42,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 115,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 7.75,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 116,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 8.01,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 117,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.26,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 118,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 11.25,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 119,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 7.78,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 120,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 10.09,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 121,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.33,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 122,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 11.63,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 123,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 9.17,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 124,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 12.5,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 125,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 8.75,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 126,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 9.42,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 127,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 8.57,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 128,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 7.03,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 129,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 6.2,
+      "satuan": "PERSEN",
+      "tahun": 2012
+    },
+    {
+      "id": 130,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 7.87,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 131,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 10.38,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 132,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 14.18,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 133,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 10.12,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 134,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 8.14,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 135,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.4,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 136,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.85,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 137,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 8.22,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 138,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 14.88,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 139,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 7.35,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 140,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 6.41,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 141,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 9.63,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 142,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 7.34,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 143,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.45,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 144,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 9.8,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 145,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 7.17,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 146,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 9.54,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 147,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.8,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 148,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 11.18,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 149,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 10.97,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 150,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 9.02,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 151,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 9.5,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 152,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 7.69,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 153,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 11.43,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 154,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.52,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 155,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 7.04,
+      "satuan": "PERSEN",
+      "tahun": 2013
+    },
+    {
+      "id": 156,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 7.65,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 157,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.09,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 158,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 14.87,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 159,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.48,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 160,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.71,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 161,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.93,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 162,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 4.92,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 163,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 6.88,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 164,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 13.32,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 165,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.47,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 166,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.51,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 167,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.01,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 168,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 6.74,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 169,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 7.83,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 170,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 11.1,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 171,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 6.79,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 172,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 8.15,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 173,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.48,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 174,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 11.64,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 175,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.05,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 176,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 11.02,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 177,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 9.36,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 178,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 8.44,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 179,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 9.62,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 180,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 5.38,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 181,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 7.38,
+      "satuan": "PERSEN",
+      "tahun": 2014
+    },
+    {
+      "id": 182,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 10.01,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 183,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 10.05,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 184,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 10.06,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 185,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 4.03,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 186,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 6.5,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 187,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 8.51,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 188,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 6.99,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 189,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 7.49,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 190,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 10.51,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 191,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.01,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 192,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 9.0,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 193,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.51,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 194,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 10.04,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 195,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 10.0,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 196,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 11.51,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 197,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.03,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 198,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 10.01,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 199,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 4.81,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 200,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 11.08,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 201,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.06,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 202,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 9.02,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 203,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 11.28,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 204,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 9.36,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 205,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 7.48,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 206,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 9.0,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 207,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 5.46,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 208,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 7.38,
+      "satuan": "PERSEN",
+      "tahun": 2015
+    },
+    {
+      "id": 209,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 9.55,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 210,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.66,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 211,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 10.1,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 212,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 3.92,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 213,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.86,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 214,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.61,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 215,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.17,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 216,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 7.94,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 217,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 9.61,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 218,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 5.02,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 219,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.15,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 220,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.64,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 221,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 8.74,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 222,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.11,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 223,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 9.55,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 224,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.97,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 225,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 9.33,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 226,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 3.34,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 227,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.57,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 228,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.0,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 229,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.44,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 230,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 9.29,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 231,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 9.32,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 232,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 7.0,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 233,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 8.43,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 234,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.89,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 235,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.97,
+      "satuan": "PERSEN",
+      "tahun": 2017
+    },
+    {
+      "id": 236,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 9.83,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 237,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.84,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 238,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 10.23,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 239,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 5.07,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 240,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.12,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 241,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.92,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 242,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 4.64,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 243,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.1,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 244,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 10.64,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 245,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 5.0,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 246,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.54,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 247,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.46,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 248,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 8.71,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 249,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.94,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 250,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 9.12,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 251,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 9.74,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 252,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 8.55,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 253,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 3.59,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 254,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.74,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 255,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.57,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 256,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.05,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 257,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 9.07,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 258,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 9.14,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 259,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 6.66,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 260,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 8.0,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 261,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.89,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 262,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.95,
+      "satuan": "PERSEN",
+      "tahun": 2018
+    },
+    {
+      "id": 263,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 9.11,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 264,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.05,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 265,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 9.81,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 266,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 5.51,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 267,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.35,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 268,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.31,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 269,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.16,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 270,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.68,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 271,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 10.35,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 272,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.37,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 273,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.7,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 274,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.35,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 275,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 8.68,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 276,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 9.73,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 277,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 9.68,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 278,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 9.0,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 279,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 8.24,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 280,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 4.52,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 281,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.16,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 282,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.49,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 283,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.18,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 284,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 9.04,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 285,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 8.3,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 286,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 6.12,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 287,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 8.09,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 288,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.78,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 289,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 6.16,
+      "satuan": "PERSEN",
+      "tahun": 2019
+    },
+    {
+      "id": 290,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 14.29,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 291,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.6,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 292,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 11.05,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 293,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.58,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 294,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 8.96,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 295,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 7.12,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 296,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.66,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 297,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 11.22,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 298,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 11.52,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 299,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 5.84,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 300,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 9.89,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 301,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 9.21,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 302,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 9.48,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 303,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 11.07,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 304,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 11.52,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 305,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 11.54,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 306,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 12.25,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 307,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 5.08,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 308,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 12.68,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 309,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 12.17,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 310,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 11.19,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 311,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 10.97,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 312,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 10.68,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 313,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 9.87,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 314,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 13.3,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 315,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 7.99,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 316,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 6.73,
+      "satuan": "PERSEN",
+      "tahun": 2020
+    },
+    {
+      "id": 317,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 12.22,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 318,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 9.51,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 319,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 9.32,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 320,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.32,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 321,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 8.68,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 322,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.16,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 323,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 5.06,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 324,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 11.68,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 325,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 10.38,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 326,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 5.71,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 327,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 9.18,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 328,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 8.3,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 329,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 9.77,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 330,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 10.7,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 331,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 11.83,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 332,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.09,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 333,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 11.65,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 334,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 3.25,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 335,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 11.79,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 336,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 10.78,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 337,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 11.46,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 338,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 10.53,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 339,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 10.88,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 340,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 9.76,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 341,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 13.07,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 342,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 7.66,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 343,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 6.09,
+      "satuan": "PERSEN",
+      "tahun": 2021
+    },
+    {
+      "id": 344,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 10.64,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 345,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.77,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 346,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 8.41,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 347,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 6.98,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 348,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.6,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 349,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 4.17,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 350,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 3.75,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 351,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.81,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 352,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 8.11,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 353,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.16,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 354,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 7.72,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 355,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 6.49,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 356,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 7.77,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 357,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 8.75,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 358,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 9.87,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 359,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 10.31,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 360,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 9.63,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 361,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 1.56,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 362,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 10.78,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 363,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.83,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 364,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 9.55,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 365,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 8.42,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 366,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 8.81,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 367,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 7.82,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 368,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 10.77,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 369,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.62,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 370,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.53,
+      "satuan": "PERSEN",
+      "tahun": 2022
+    },
+    {
+      "id": 371,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 8.47,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 372,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.32,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 373,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 7.71,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 374,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 6.52,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 375,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 7.33,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 376,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 3.89,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 377,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 3.52,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 378,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 9.49,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 379,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 7.65,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 380,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.12,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 381,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 6.94,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 382,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 6.46,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 383,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 7.65,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 384,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 7.72,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 385,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 8.95,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 386,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 8.87,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 387,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 8.11,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 388,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 1.52,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 389,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 9.39,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 390,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.53,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 391,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 8.83,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 392,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 7.66,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 393,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 7.9,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 394,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 6.97,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 395,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 10.52,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 396,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.55,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 397,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.43,
+      "satuan": "PERSEN",
+      "tahun": 2023
+    },
+    {
+      "id": 398,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3201,
+      "nama_kabupaten_kota": "KABUPATEN BOGOR",
+      "tingkat_pengangguran_terbuka": 7.34,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 399,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3202,
+      "nama_kabupaten_kota": "KABUPATEN SUKABUMI",
+      "tingkat_pengangguran_terbuka": 7.11,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 400,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3203,
+      "nama_kabupaten_kota": "KABUPATEN CIANJUR",
+      "tingkat_pengangguran_terbuka": 5.99,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 401,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3204,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG",
+      "tingkat_pengangguran_terbuka": 6.36,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 402,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3205,
+      "nama_kabupaten_kota": "KABUPATEN GARUT",
+      "tingkat_pengangguran_terbuka": 6.96,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 403,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3206,
+      "nama_kabupaten_kota": "KABUPATEN TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 3.74,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 404,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3207,
+      "nama_kabupaten_kota": "KABUPATEN CIAMIS",
+      "tingkat_pengangguran_terbuka": 3.37,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 405,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3208,
+      "nama_kabupaten_kota": "KABUPATEN KUNINGAN",
+      "tingkat_pengangguran_terbuka": 7.78,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 406,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3209,
+      "nama_kabupaten_kota": "KABUPATEN CIREBON",
+      "tingkat_pengangguran_terbuka": 6.74,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 407,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3210,
+      "nama_kabupaten_kota": "KABUPATEN MAJALENGKA",
+      "tingkat_pengangguran_terbuka": 4.01,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 408,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3211,
+      "nama_kabupaten_kota": "KABUPATEN SUMEDANG",
+      "tingkat_pengangguran_terbuka": 6.16,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 409,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3212,
+      "nama_kabupaten_kota": "KABUPATEN INDRAMAYU",
+      "tingkat_pengangguran_terbuka": 6.25,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 410,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3213,
+      "nama_kabupaten_kota": "KABUPATEN SUBANG",
+      "tingkat_pengangguran_terbuka": 6.73,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 411,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3214,
+      "nama_kabupaten_kota": "KABUPATEN PURWAKARTA",
+      "tingkat_pengangguran_terbuka": 7.34,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 412,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3215,
+      "nama_kabupaten_kota": "KABUPATEN KARAWANG",
+      "tingkat_pengangguran_terbuka": 8.04,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 413,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3216,
+      "nama_kabupaten_kota": "KABUPATEN BEKASI",
+      "tingkat_pengangguran_terbuka": 8.82,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 414,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3217,
+      "nama_kabupaten_kota": "KABUPATEN BANDUNG BARAT",
+      "tingkat_pengangguran_terbuka": 6.7,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 415,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3218,
+      "nama_kabupaten_kota": "KABUPATEN PANGANDARAN",
+      "tingkat_pengangguran_terbuka": 1.58,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 416,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3271,
+      "nama_kabupaten_kota": "KOTA BOGOR",
+      "tingkat_pengangguran_terbuka": 8.13,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 417,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3272,
+      "nama_kabupaten_kota": "KOTA SUKABUMI",
+      "tingkat_pengangguran_terbuka": 8.34,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 418,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3273,
+      "nama_kabupaten_kota": "KOTA BANDUNG",
+      "tingkat_pengangguran_terbuka": 7.4,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 419,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3274,
+      "nama_kabupaten_kota": "KOTA CIREBON",
+      "tingkat_pengangguran_terbuka": 6.29,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 420,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3275,
+      "nama_kabupaten_kota": "KOTA BEKASI",
+      "tingkat_pengangguran_terbuka": 7.82,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 421,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3276,
+      "nama_kabupaten_kota": "KOTA DEPOK",
+      "tingkat_pengangguran_terbuka": 6.27,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 422,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3277,
+      "nama_kabupaten_kota": "KOTA CIMAHI",
+      "tingkat_pengangguran_terbuka": 8.97,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 423,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3278,
+      "nama_kabupaten_kota": "KOTA TASIKMALAYA",
+      "tingkat_pengangguran_terbuka": 6.49,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    },
+    {
+      "id": 424,
+      "kode_provinsi": 32,
+      "nama_provinsi": "JAWA BARAT",
+      "kode_kabupaten_kota": 3279,
+      "nama_kabupaten_kota": "KOTA BANJAR",
+      "tingkat_pengangguran_terbuka": 5.44,
+      "satuan": "PERSEN",
+      "tahun": 2024
+    }
+  ]
+}

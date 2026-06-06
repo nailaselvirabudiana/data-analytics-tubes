@@ -14,12 +14,13 @@ Or simply call `python scripts/extract_api.py` in a scheduled job.
 """
 from prefect import flow, task
 import subprocess
+import sys
 
 
 @task(retries=2)
 def run_extraction():
     # call the extraction script; capture output
-    result = subprocess.run(["python", "scripts/extract_api.py"], capture_output=True, text=True)
+    result = subprocess.run([sys.executable, "scripts/extract_api.py"], capture_output=True, text=True)
     if result.returncode != 0:
         raise RuntimeError(f"Extraction failed: {result.stderr}")
     return result.stdout

@@ -1,0 +1,34 @@
+column,description,source_or_logic
+kode_provinsi,Province code; expected value for Jawa Barat is 32.,standardized dimension
+nama_provinsi,Province name standardized to uppercase.,standardized dimension
+kode_kabupaten_kota,Kabupaten/kota code used as the main geographic join key.,standardized dimension
+nama_kabupaten_kota,Kabupaten/kota name standardized to uppercase.,standardized dimension
+tahun,Observation year.,standardized time key
+garis_kemiskinan,Garis kemiskinan (rupiah/kapita/bulan).,raw_garis_kemiskinan
+garis_kemiskinan_was_imputed,True when the original metric value was missing and filled during preprocessing.,zero placeholders are treated as missing; internal gaps are filled with linear interpolation by kabupaten/kota
+garis_kemiskinan_yoy_change,Year-over-year absolute change by kabupaten/kota.,feature engineering
+garis_kemiskinan_yoy_pct_change,Year-over-year percentage change by kabupaten/kota.,feature engineering
+persentase_penduduk_miskin,Persentase penduduk miskin (persen).,raw_persentase_miskin
+persentase_penduduk_miskin_was_imputed,True when the original metric value was missing and filled during preprocessing.,zero placeholders are treated as missing; internal gaps are filled with linear interpolation by kabupaten/kota
+persentase_penduduk_miskin_yoy_change,Year-over-year absolute change by kabupaten/kota.,feature engineering
+persentase_penduduk_miskin_yoy_pct_change,Year-over-year percentage change by kabupaten/kota.,feature engineering
+indeks_keparahan_kemiskinan,Indeks keparahan kemiskinan (indeks).,raw_keparahan_kemiskinan
+indeks_keparahan_kemiskinan_was_imputed,True when the original metric value was missing and filled during preprocessing.,zero placeholders are treated as missing; internal gaps are filled with linear interpolation by kabupaten/kota
+indeks_keparahan_kemiskinan_yoy_change,Year-over-year absolute change by kabupaten/kota.,feature engineering
+indeks_keparahan_kemiskinan_yoy_pct_change,Year-over-year percentage change by kabupaten/kota.,feature engineering
+indeks_pembangunan_manusia,Indeks pembangunan manusia (indeks).,raw_ipm_sp2010
+indeks_pembangunan_manusia_was_imputed,True when the original metric value was missing and filled during preprocessing.,zero placeholders are treated as missing; internal gaps are filled with linear interpolation by kabupaten/kota
+indeks_pembangunan_manusia_yoy_change,Year-over-year absolute change by kabupaten/kota.,feature engineering
+indeks_pembangunan_manusia_yoy_pct_change,Year-over-year percentage change by kabupaten/kota.,feature engineering
+tingkat_pengangguran_terbuka,Tingkat pengangguran terbuka (persen).,raw_pengangguran_terbuka
+tingkat_pengangguran_terbuka_was_imputed,True when the original metric value was missing and filled during preprocessing.,zero placeholders are treated as missing; internal gaps are filled with linear interpolation by kabupaten/kota
+tingkat_pengangguran_terbuka_yoy_change,Year-over-year absolute change by kabupaten/kota.,feature engineering
+tingkat_pengangguran_terbuka_yoy_pct_change,Year-over-year percentage change by kabupaten/kota.,feature engineering
+persentase_miskin_rolling_3y,Three-year rolling average of poverty percentage.,feature engineering
+arah_tren_kemiskinan,naik/turun/stabil based on poverty percentage YoY movement with 0.1 point tolerance.,feature engineering
+skor_kerentanan_sosial,Composite vulnerability score; higher means more vulnerable.,"mean of yearly z-scores: poverty %, severity, unemployment, and inverse IPM; only populated when all components are available"
+jumlah_komponen_skor_kerentanan,Count of risk-score components available for a row.,data quality feature for skor_kerentanan_sosial
+peringkat_prioritas_intervensi,Within-year intervention priority rank; 1 is highest priority.,rank of skor_kerentanan_sosial by year
+prioritas_intervensi,"Priority bucket: sangat_tinggi, tinggi, sedang, rendah.",within-year percentile rank of skor_kerentanan_sosial
+jumlah_indikator_diimputasi,Count of metric values imputed for the row.,data quality feature
+jumlah_indikator_tersedia,Count of non-null source metrics available after preprocessing.,data quality feature
