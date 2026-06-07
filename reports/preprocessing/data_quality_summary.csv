@@ -1,6 +1,6 @@
 logical_name,metric,rows_raw,rows_clean,missing_values_before,missing_values_after,missing_metric_before_impute,imputed_values,invalid_zero_values,rows_dropped_missing_keys,duplicate_key_rows,exact_duplicate_rows,source_mode,source_file,api_endpoint,records_cache_file
-raw_garis_kemiskinan,garis_kemiskinan,594,594,0,14,14,0,14,0,0,0,csv,data/raw/raw_garis_kemiskinan_20260605T155040Z.csv,,
-raw_persentase_miskin,persentase_penduduk_miskin,405,405,0,5,5,0,5,0,0,0,csv,data/raw/raw_persentase_miskin_20260605T155041Z.csv,,
-raw_keparahan_kemiskinan,indeks_keparahan_kemiskinan,567,567,0,14,14,0,14,0,0,0,csv,data/raw/raw_keparahan_kemiskinan_20260605T155042Z.csv,,
-raw_ipm_sp2010,indeks_pembangunan_manusia,405,405,0,3,3,0,3,0,0,0,csv,data/raw/raw_ipm_sp2010_20260605T155042Z.csv,,
-raw_pengangguran_terbuka,tingkat_pengangguran_terbuka,424,424,0,0,0,0,0,0,0,0,csv,data/raw/raw_pengangguran_terbuka_20260605T155043Z.csv,,
+raw_garis_kemiskinan,garis_kemiskinan,594,594,0,14,14,0,14,0,0,0,csv,data/archive/raw_garis_kemiskinan_20260605T155040Z.csv,,
+raw_persentase_miskin,persentase_penduduk_miskin,405,405,0,5,5,0,5,0,0,0,csv,data/archive/raw_persentase_miskin_20260605T155041Z.csv,,
+raw_keparahan_kemiskinan,indeks_keparahan_kemiskinan,567,567,0,14,14,0,14,0,0,0,csv,data/archive/raw_keparahan_kemiskinan_20260605T155042Z.csv,,
+raw_ipm_sp2010,indeks_pembangunan_manusia,405,405,0,3,3,0,3,0,0,0,csv,data/archive/raw_ipm_sp2010_20260605T155042Z.csv,,
+raw_pengangguran_terbuka,tingkat_pengangguran_terbuka,424,424,0,0,0,0,0,0,0,0,csv,data/archive/raw_pengangguran_terbuka_20260605T155043Z.csv,,

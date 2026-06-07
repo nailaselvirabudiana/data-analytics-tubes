@@ -1,0 +1,9 @@
+level_kerentanan,tren_kemiskinan,prioritas_aksi,jumlah_wilayah,dominant_cluster_id,wilayah
+tinggi,memburuk,prioritas_segera,7,0,KABUPATEN BANDUNG BARAT; KABUPATEN CIANJUR; KABUPATEN CIREBON; KABUPATEN GARUT; KABUPATEN INDRAMAYU; KABUPATEN MAJALENGKA; KABUPATEN SUBANG
+tinggi,stabil,intervensi_intensif,1,0,KABUPATEN KUNINGAN
+tinggi,membaik,intervensi_intensif,1,0,KABUPATEN SUMEDANG
+sedang,memburuk,peringatan_dini,6,1,KABUPATEN PURWAKARTA; KABUPATEN SUKABUMI; KABUPATEN TASIKMALAYA; KOTA BOGOR; KOTA CIREBON; KOTA SUKABUMI
+sedang,stabil,pemantauan,2,1,KABUPATEN BOGOR; KABUPATEN KARAWANG
+sedang,membaik,pemantauan,1,1,KOTA TASIKMALAYA
+rendah,memburuk,pantau,4,1,KABUPATEN BEKASI; KABUPATEN CIAMIS; KABUPATEN PANGANDARAN; KOTA BANDUNG
+rendah,stabil,rutin,5,2,KABUPATEN BANDUNG; KOTA BANJAR; KOTA BEKASI; KOTA CIMAHI; KOTA DEPOK

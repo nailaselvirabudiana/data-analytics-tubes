@@ -1,0 +1,11 @@
+nama_kabupaten_kota,skor_kerentanan_sosial,persentase_penduduk_miskin,indeks_pembangunan_manusia,kelompok
+KABUPATEN KUNINGAN,1.2018,11.88,71.26,paling_rentan
+KABUPATEN INDRAMAYU,1.0761,11.93,69.83,paling_rentan
+KABUPATEN CIANJUR,0.7443,10.14,67.24,paling_rentan
+KABUPATEN SUBANG,0.6687,9.49,71.36,paling_rentan
+KABUPATEN CIREBON,0.6097,11.0,71.44,paling_rentan
+KABUPATEN BANDUNG,-0.6076,6.19,74.27,paling_tidak_rentan
+KABUPATEN CIAMIS,-0.6239,7.39,72.56,paling_tidak_rentan
+KOTA BEKASI,-0.8622,4.01,83.54,paling_tidak_rentan
+KOTA BANDUNG,-1.0782,3.87,83.52,paling_tidak_rentan
+KOTA DEPOK,-1.5019,2.34,82.91,paling_tidak_rentan

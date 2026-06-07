@@ -1,97 +1,151 @@
 # data-analytics-tubes
 
-Instruksi singkat untuk menyiapkan environment dan menjalankan skrip ekstraksi.
+Poverty and social-vulnerability analytics for Jawa Barat, built on the OSEMN framework
 
-## Persyaratan
-- Python 3.8+
-- Paket: lihat `requirements.txt`
+## Requirements
+- Python 3.13+
+- Dependency manager: `uv`
+- Dependencies are declared in `pyproject.toml` and locked in `uv.lock`
 
-## Instalasi
-Gunakan pip pada environment Python yang aktif:
+## Install uv
+Install uv from Astral if it is not on your machine:
 
-```powershell
-pip install -r requirements.txt
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## Verifikasi
-Pastikan `pandas` terpasang dan dapat diimpor:
+## Setup
+Sync the environment from the lockfile:
 
-```powershell
-python -c "import pandas as pd; print(pd.__version__)"
+```bash
+uv sync
 ```
 
-## Menjalankan ekstraksi
-Skrip ekstraksi utama ada di `scripts/extract_api.py`.
+## Verify
+Check that pandas is installed and importable:
 
-```powershell
-python3 scripts/extract_api.py
+```bash
+uv run python -c "import pandas as pd; print(pd.__version__)"
 ```
 
-Skrip ini memakai Open Data Jabar secara API-first:
-1. mengambil dokumen OpenAPI dari `api-backend/static/doc/...`,
-2. membaca endpoint data aktual dari dokumen tersebut,
-3. mengambil seluruh record statistik dengan pagination `limit` dan `skip`,
-4. menyimpan JSON dan CSV mentah ke `data/raw/`.
+## Obtain
+The main extraction script is `scripts/extract_api.py`:
 
-Dengan alur ini, ketika data di Open Data Jabar diperbarui, pipeline cukup dijalankan ulang tanpa download manual.
-
-## Catatan VS Code
-Jika VS Code menandai `pandas` kuning, pilih interpreter Python yang sama dengan yang Anda gunakan untuk menginstal paket: Command Palette → `Python: Select Interpreter`.
-
-## Manifest & idempotensi
-Setiap kali skrip dijalankan, script akan menyimpan versi mentah dengan timestamp di `data/raw/` dan menambahkan entri pada manifest: `data/manifest/ingest_manifest.csv`.
-Kolom manifest: `ingest_time, logical_name, stored_filename, source_url, checksum, status, notes`.
-
-Jika checksum JSON sudah ada di manifest, script akan melewatkan penyimpanan ulang dan mencatat status `skipped`.
-
-## Orkestrasi
-Contoh scaffold Prefect ada di `scripts/orchestrate_prefect.py`. Untuk penggunaan sederhana, Anda juga bisa menambahkan cron job yang menjalankan `python3 scripts/extract_api.py`.
-
-## Preprocessing / Scrub OSEMN
-Peran data preprocessing lead terutama berada di tahap **S - Scrub** pada kerangka OSEMN: membersihkan data, menangani missing value, standardisasi kolom dan tipe data, integrasi dataset, serta feature engineering.
-
-Tahap **E - Explore** tetap dilakukan secara ringan untuk kebutuhan preprocessing, misalnya profiling missing value, duplikasi key, rentang tahun, dan validasi hasil cleaning. EDA analitis penuh seperti interpretasi tren utama, visualisasi insight, atau rekomendasi kebijakan biasanya menjadi area analyst/modeling lead setelah data bersih tersedia.
-
-Skrip preprocessing utama:
-
-```powershell
-python3 scripts/preprocess_data.py
+```bash
+uv run python scripts/extract_api.py
 ```
 
-Secara default, output processed difilter ke periode analisis **2010-2024** sesuai scope obtain. Raw API tetap disimpan lengkap di `data/raw/`.
+It uses Open Data Jabar in an API-first way:
+- fetch the OpenAPI document from `api-backend/static/doc/`
+- read the actual data endpoint from that document
+- pull every statistical record with `limit` and `skip` pagination
+- save raw JSON and CSV to `data/raw/`
 
-Jika perlu mengganti periode analisis:
+When Open Data Jabar updates, rerun the pipeline with no manual download
 
-```powershell
-python3 scripts/preprocess_data.py --start-year 2010 --end-year 2024
+## VS Code note
+If VS Code marks `pandas` yellow, select the same Python interpreter you used to install the packages through Command Palette then `Python: Select Interpreter`
+
+## Manifest and idempotency
+Each run saves a timestamped raw version under `data/raw/` and appends an entry to the manifest `data/manifest/ingest_manifest.csv`
+Manifest columns: `ingest_time, logical_name, stored_filename, source_url, checksum, status, notes`
+
+When a JSON checksum already exists in the manifest, the script skips re-saving and records the status `skipped`
+
+## Orchestration
+A Prefect scaffold is in `scripts/orchestrate_prefect.py`
+For simple use, add a cron job that runs `uv run python scripts/extract_api.py`
+
+## Scrub
+The preprocessing lead owns the S - Scrub stage: cleaning, missing-value handling, column and type standardization, dataset integration, and feature engineering
+
+A light Explore runs here only for data quality, for example missing-value profiling, duplicate keys, year range, and cleaning checks; the full analytical Explore belongs to the analyst stage once the clean data is ready
+
+Main preprocessing script:
+
+```bash
+uv run python scripts/preprocess_data.py
 ```
 
-Notebook preprocessing interaktif:
+By default the processed output is filtered to the 2010-2024 analysis period from the obtain scope; the full raw API stays in `data/raw/`
 
-```text
-notebooks/01_preprocessing_scrub.ipynb
+To change the analysis period:
+
+```bash
+uv run python scripts/preprocess_data.py --start-year 2010 --end-year 2024
 ```
 
-Output utama:
+The interactive OSEMN notebook covering every stage is `notebooks/OSEMN.ipynb`
+After `uv sync` the notebook runs without extra flags, both in an editor and headless:
+
+```bash
+uv run jupyter nbconvert --to notebook --execute notebooks/OSEMN.ipynb --output /tmp/OSEMN_run.ipynb
+```
+
+Main outputs:
 - `data/processed/panel_kemiskinan_jabar_preprocessed.csv`
 - `data/processed/feature_dictionary.csv`
 - `data/processed/preprocess_manifest.csv`
 - `reports/preprocessing/data_quality_summary.csv`
-- `reports/preprocessing/preprocessing_quality_report.md`
 
-Validasi processed data:
+Validate the processed panel:
 
-```powershell
-python3 scripts/validate_processed_data.py
+```bash
+uv run python scripts/validate_processed_data.py
 ```
 
-Output validasi:
+Validation outputs:
 - `reports/preprocessing/processed_validation_checks.csv`
 - `reports/preprocessing/metric_coverage_by_year.csv`
-- `reports/preprocessing/processed_validation_report.md`
 
-Catatan: jika file raw yang tersedia masih berupa dokumentasi OpenAPI, bukan record statistik, skrip akan mencoba mengambil record aktual dari endpoint yang terdokumentasi. Untuk mode offline murni, jalankan:
+Note: when a raw file is still an OpenAPI document rather than statistical records, the script fetches the actual records from the documented endpoint
+For a strictly offline run:
 
-```powershell
-python3 scripts/preprocess_data.py --no-fetch-openapi
+```bash
+uv run python scripts/preprocess_data.py --no-fetch-openapi
 ```
+
+## Explore and Model
+The analyst and modeler owns the E - Explore and M - Model stages
+Explore computes the numeric findings such as descriptive statistics, correlation, trend, and comparison, while chart rendering is handed to the visualization developer
+Model clusters the regions, profiles the clusters, ranks feature importance, and builds the intervention priority matrix
+
+The analysis unit is kabupaten/kota; the desa level in the title is not available from the obtained sources, so it stays out of scope
+
+Exploratory analysis:
+
+```bash
+uv run python scripts/explore_analysis.py
+```
+
+Exploration outputs as CSV, with the interpretation in the notebook Explore section:
+- `reports/exploration/descriptive_stats_latest.csv`
+- `reports/exploration/correlation_matrix_latest.csv`
+- `reports/exploration/poverty_trend_by_year.csv`
+- `reports/exploration/region_change_summary.csv`
+- `reports/exploration/kota_vs_kabupaten_latest.csv`
+- `reports/exploration/top_bottom_regions_latest.csv`
+
+Clustering model:
+
+```bash
+uv run python scripts/model_clustering.py
+```
+
+The default uses the latest fully scored snapshot year, `k=3`, and a 6-year trend window
+Override when needed:
+
+```bash
+uv run python scripts/model_clustering.py --year 2024 --k 3 --k-max 6 --trend-window 6
+```
+
+Use `--k 0` to pick `k` automatically by silhouette
+
+Modeling outputs as CSV, with the model summary, priority matrix, and limitations in the notebook Model and iNterpret sections:
+- `data/processed/region_clusters_{year}.csv`
+- `data/processed/cluster_model_manifest.csv`
+- `reports/modeling/model_selection.csv`
+- `reports/modeling/cluster_profiles.csv`
+- `reports/modeling/feature_importance.csv`
+- `reports/modeling/urban_rural_comparison.csv`
+- `reports/modeling/priority_matrix.csv`

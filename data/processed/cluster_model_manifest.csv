@@ -1,0 +1,6 @@
+model_time,output_file,snapshot_year,k,silhouette,kmeans_ward_ari,region_count
+2026-06-07T17:32:21.398193,data/processed/region_clusters_2024.csv,2024,3,0.2932,0.7607,27
+2026-06-07T18:59:30.925474,data/processed/region_clusters_2024.csv,2024,3,0.2932,0.7607,27
+2026-06-07T19:07:17.096598,data/processed/region_clusters_2024.csv,2024,3,0.2932,0.7607,27
+2026-06-07T19:12:41.095888,data/processed/region_clusters_2024.csv,2024,3,0.2932,0.7607,27
+2026-06-07T19:20:11.631992,data/processed/region_clusters_2024.csv,2024,3,0.2932,0.7607,27

@@ -2,7 +2,6 @@ import csv
 import hashlib
 import json
 import logging
-import os
 import re
 import shutil
 from datetime import datetime, timezone
@@ -13,14 +12,14 @@ import pandas as pd
 import requests
 
 
-# Tentukan root direktori proyek agar relative path selalu konsisten
+# Resolve project root path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 ARCHIVE_DIR = PROJECT_ROOT / "data" / "archive"
 MANIFEST_PATH = PROJECT_ROOT / "data" / "manifest" / "ingest_manifest.csv"
 LOG_DIR = PROJECT_ROOT / "logs"
 
-# 1. Pastikan folder arsitektur mentah tersedia sesuai standar tugas besar.
+# Ensure raw data folders exist
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
 MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -55,8 +54,7 @@ if not MANIFEST_PATH.exists():
         )
 
 
-# 2. URL ini adalah dokumen OpenAPI dari Open Data Jabar.
-# Script akan membaca dokumen ini untuk menemukan endpoint record data aktual.
+# OpenAPI doc URLs per dataset
 api_docs = {
     "raw_garis_kemiskinan": f"{BASE_URL}/api-backend/static/doc/bps-od_20003_garis_kemiskinan_berdasarkan_kabupatenkota_v2.json",
     "raw_persentase_miskin": f"{BASE_URL}/api-backend/static/doc/bps-od_17058_persentase_penduduk_miskin__kabupatenkota.json",
@@ -67,7 +65,7 @@ api_docs = {
 
 
 def extract_records(payload: Any) -> List[Dict[str, Any]]:
-    """Extract tabular records from common Open Data Jabar response shapes."""
+    # Extract records from response
     if isinstance(payload, list):
         return [row for row in payload if isinstance(row, dict)]
 
@@ -90,7 +88,7 @@ def extract_records(payload: Any) -> List[Dict[str, Any]]:
 
 
 def resolve_data_endpoint(openapi_doc: Dict[str, Any]) -> str:
-    """Resolve the collection endpoint from an OpenAPI document."""
+    # Resolve collection endpoint
     servers = openapi_doc.get("servers") or [{"url": "/api-backend/bigdata/bps/"}]
     server_url = servers[0].get("url", "/api-backend/bigdata/bps/")
 
@@ -100,7 +98,7 @@ def resolve_data_endpoint(openapi_doc: Dict[str, Any]) -> str:
         if "{id}" not in path
     ]
     if not collection_paths:
-        raise ValueError("Tidak menemukan collection path pada dokumen OpenAPI.")
+        raise ValueError("No collection path found in OpenAPI document")
 
     collection_path = sorted(collection_paths)[0]
     if server_url.startswith("http"):
@@ -110,7 +108,7 @@ def resolve_data_endpoint(openapi_doc: Dict[str, Any]) -> str:
 
 
 def fetch_all_records(session: requests.Session, endpoint: str, limit: int = 5000) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
-    """Fetch all paginated records from an Open Data Jabar endpoint."""
+    # Fetch paginated records
     rows: List[Dict[str, Any]] = []
     skip = 0
     page_count = 0
@@ -131,7 +129,7 @@ def fetch_all_records(session: requests.Session, endpoint: str, limit: int = 500
         ).hexdigest()
         if page_signature == last_page_signature:
             raise RuntimeError(
-                "API mengembalikan halaman yang sama berulang kali; pagination dihentikan untuk mencegah loop."
+                "API returned the same page repeatedly; pagination stopped to avoid a loop"
             )
 
         rows.extend(batch)
@@ -198,11 +196,7 @@ def update_latest_copy(stored_json: Path, stored_csv: Path, logical_name: str) -
 
 
 def apply_retention(logical_name: str, keep_latest: int = 5) -> None:
-    """Apply retention policy to archived versions.
-
-    This will keep the `keep_latest` most recent timestamped versions in `data/archive`
-    and remove older ones. The `data/raw` folder always keeps only the latest copies.
-    """
+    # Keep latest archived versions
     pattern = re.compile(rf"^{re.escape(logical_name)}_(\d{{8}}T\d{{6}}Z)\.(json|csv)$")
     versions: Dict[str, List[Path]] = {}
 
@@ -226,7 +220,7 @@ def apply_retention(logical_name: str, keep_latest: int = 5) -> None:
 
 
 def fetch_and_save(logical_name: str, doc_url: str) -> bool:
-    logger.info("Memulai ekstraksi: %s", logical_name)
+    logger.info("Starting extraction: %s", logical_name)
 
     try:
         session = requests.Session()
@@ -239,13 +233,13 @@ def fetch_and_save(logical_name: str, doc_url: str) -> bool:
         records, metadata = fetch_all_records(session, data_endpoint)
 
         if not records:
-            raise RuntimeError(f"Tidak ada record data dari endpoint: {data_endpoint}")
+            raise RuntimeError(f"No data records from endpoint: {data_endpoint}")
 
         checksum = checksum_records(records)
         already, prev_file = checksum_already_exists(checksum)
 
         if already:
-            logger.info("Skipped %s: checksum sudah pernah diingest (%s)", logical_name, prev_file)
+            logger.info("Skipped %s: checksum already ingested (%s)", logical_name, prev_file)
             append_manifest(
                 logical_name=logical_name,
                 stored_filename=prev_file,
@@ -278,7 +272,7 @@ def fetch_and_save(logical_name: str, doc_url: str) -> bool:
         update_latest_copy(stored_json, stored_csv, logical_name)
 
         logger.info(
-            "Sukses: %s rows tersimpan ke %s dan %s",
+            "Saved %s rows to %s and %s",
             len(df),
             stored_json,
             stored_csv,
@@ -297,7 +291,7 @@ def fetch_and_save(logical_name: str, doc_url: str) -> bool:
         return True
 
     except Exception as exc:
-        logger.exception("Gagal mengekstrak %s. Error: %s", logical_name, exc)
+        logger.exception("Failed to extract %s, error: %s", logical_name, exc)
         append_manifest(
             logical_name=logical_name,
             stored_filename="",
@@ -310,12 +304,12 @@ def fetch_and_save(logical_name: str, doc_url: str) -> bool:
 
 
 if __name__ == "__main__":
-    print("=== Memulai Pipeline Ekstraksi Data dari API ===\n")
+    print("Starting API extraction pipeline\n")
     failed = []
     for name, endpoint_doc in api_docs.items():
         ok = fetch_and_save(name, endpoint_doc)
         if not ok:
             failed.append(name)
-    print("\n=== Ekstraksi Selesai ===")
+    print("\nExtraction finished")
     if failed:
-        raise SystemExit(f"Ekstraksi gagal untuk: {', '.join(failed)}")
+        raise SystemExit(f"Extraction failed for: {', '.join(failed)}")

@@ -1,0 +1,16 @@
+[project]
+name = "data-analytics-tubes"
+version = "0.1.0"
+description = "Poverty and social-vulnerability analytics for Jawa Barat using the OSEMN framework"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "prefect>=3.7.4",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.17.1",
+]

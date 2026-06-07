@@ -1,18 +1,7 @@
-"""
-Validate the processed poverty and social-vulnerability panel.
-
-This is a quality-gate script for the preprocessing lead. It does not clean data;
-it checks whether the processed output is structurally safe for analysis.
-
-Outputs:
-- reports/preprocessing/processed_validation_checks.csv
-- reports/preprocessing/metric_coverage_by_year.csv
-- reports/preprocessing/processed_validation_report.md
-"""
+# Validate processed panel quality
 
 from __future__ import annotations
 
-from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -51,19 +40,6 @@ def status_from_bool(condition: bool, warn: bool = False) -> str:
     if condition:
         return "PASS"
     return "WARN" if warn else "FAIL"
-
-
-def markdown_table(df: pd.DataFrame) -> str:
-    if df.empty:
-        return ""
-    columns = list(df.columns)
-    lines = [
-        "| " + " | ".join(columns) + " |",
-        "| " + " | ".join(["---"] * len(columns)) + " |",
-    ]
-    for _, row in df.iterrows():
-        lines.append("| " + " | ".join(str(row[col]).replace("|", "/") for col in columns) + " |")
-    return "\n".join(lines)
 
 
 def validate() -> Dict[str, Path]:
@@ -231,7 +207,6 @@ def validate() -> Dict[str, Path]:
     checks_df = pd.DataFrame(checks)
     checks_path = REPORT_DIR / "processed_validation_checks.csv"
     coverage_path = REPORT_DIR / "metric_coverage_by_year.csv"
-    report_path = REPORT_DIR / "processed_validation_report.md"
 
     checks_df.to_csv(checks_path, index=False)
     coverage.to_csv(coverage_path, index=False)
@@ -239,54 +214,16 @@ def validate() -> Dict[str, Path]:
     failed = checks_df.loc[checks_df["status"].eq("FAIL")]
     warned = checks_df.loc[checks_df["status"].eq("WARN")]
 
-    report_lines = [
-        "# Processed Data Validation Report",
-        "",
-        f"Generated at: {datetime.utcnow().isoformat()}Z",
-        "",
-        "## Verdict",
-        "",
-        f"- FAIL checks: {len(failed)}",
-        f"- WARN checks: {len(warned)}",
-        f"- PASS checks: {int(checks_df['status'].eq('PASS').sum())}",
-        "",
-        "## Panel Summary",
-        "",
-        f"- Rows: {len(df)}",
-        f"- Columns: {len(df.columns)}",
-        f"- Kabupaten/kota count: {region_count}",
-        f"- Year range: {year_min}-{year_max}",
-        f"- Latest scored year: {latest_scored_year}",
-        "",
-        "## Checks",
-        "",
-        markdown_table(checks_df),
-        "",
-        "## Metric Coverage By Year",
-        "",
-        markdown_table(coverage),
-        "",
-        "## Interpretation Notes",
-        "",
-        "- Missing metric values are acceptable when a source dataset does not cover that year.",
-        "- For intervention-priority analysis, use rows where `skor_kerentanan_sosial` is not missing.",
-        "- For latest complete priority analysis in the current data, use the latest scored year shown above.",
-        "",
-    ]
-    report_path.write_text("\n".join(report_lines), encoding="utf-8")
-
-    print(f"Validation selesai: {len(failed)} FAIL, {len(warned)} WARN")
+    print(f"Validation done: {len(failed)} FAIL, {len(warned)} WARN")
     print(f"- checks: {checks_path.relative_to(PROJECT_ROOT)}")
     print(f"- coverage: {coverage_path.relative_to(PROJECT_ROOT)}")
-    print(f"- report: {report_path.relative_to(PROJECT_ROOT)}")
 
     if not failed.empty:
-        raise SystemExit("Processed data validation failed. See report for details.")
+        raise SystemExit("Processed data validation failed; see the checks CSV")
 
     return {
         "checks": checks_path,
         "coverage": coverage_path,
-        "report": report_path,
     }
 
 

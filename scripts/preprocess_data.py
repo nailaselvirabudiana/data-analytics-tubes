@@ -1,20 +1,4 @@
-"""
-Preprocess poverty and social-vulnerability datasets for West Java analytics.
-
-Role fit in OSEMN:
-- Main responsibility: Scrub (clean, standardize, integrate, engineer features).
-- Supporting responsibility: light Explore for data-quality profiling only.
-
-Outputs:
-- data/processed/panel_kemiskinan_jabar_preprocessed.csv
-- data/processed/feature_dictionary.csv
-- data/processed/preprocess_manifest.csv
-- reports/preprocessing/data_quality_summary.csv
-- reports/preprocessing/preprocessing_quality_report.md
-
-Default analysis period:
-- 2010-2024, matching the obtain-stage scope.
-"""
+# Scrub stage preprocessing pipeline
 
 from __future__ import annotations
 
@@ -98,7 +82,8 @@ DATASETS: List[DatasetSpec] = [
 
 
 class PreprocessingInputError(RuntimeError):
-    """Raised when raw inputs do not contain usable statistical records."""
+    # Raised on unusable raw input
+    pass
 
 
 def setup_logging() -> logging.Logger:
@@ -700,133 +685,17 @@ def feature_dictionary_rows() -> List[Dict[str, str]]:
     return rows
 
 
-def markdown_table(rows: List[Dict[str, Any]], columns: List[str]) -> str:
-    if not rows:
-        return ""
-    lines = [
-        "| " + " | ".join(columns) + " |",
-        "| " + " | ".join(["---"] * len(columns)) + " |",
-    ]
-    for row in rows:
-        values = [str(row.get(col, "")).replace("|", "/") for col in columns]
-        lines.append("| " + " | ".join(values) + " |")
-    return "\n".join(lines)
-
-
 def write_quality_outputs(
     profiles: List[Dict[str, Any]],
     source_infos: List[Dict[str, Any]],
-    panel: pd.DataFrame,
-    output_dir: Path,
     report_dir: Path,
-) -> Tuple[Path, Path]:
+) -> Path:
+    # Write data quality summary
     report_dir.mkdir(parents=True, exist_ok=True)
     summary_path = report_dir / "data_quality_summary.csv"
-    report_path = report_dir / "preprocessing_quality_report.md"
-
     summary = pd.DataFrame(profiles).merge(pd.DataFrame(source_infos), on=["logical_name", "metric"], how="left")
     summary.to_csv(summary_path, index=False)
-
-    output_files = [
-        str((output_dir / "panel_kemiskinan_jabar_preprocessed.csv").relative_to(PROJECT_ROOT)),
-        str((output_dir / "feature_dictionary.csv").relative_to(PROJECT_ROOT)),
-        str((output_dir / "preprocess_manifest.csv").relative_to(PROJECT_ROOT)),
-        str(summary_path.relative_to(PROJECT_ROOT)),
-    ]
-
-    scored_years = panel.loc[panel["skor_kerentanan_sosial"].notna(), "tahun"]
-    latest_year = scored_years.max() if not scored_years.empty else panel["tahun"].max()
-    latest_snapshot = (
-        panel.loc[panel["tahun"].eq(latest_year) & panel["skor_kerentanan_sosial"].notna()]
-        .sort_values("peringkat_prioritas_intervensi")
-        .head(10)
-    )
-    top_priority_rows = latest_snapshot[
-        [
-            "tahun",
-            "peringkat_prioritas_intervensi",
-            "nama_kabupaten_kota",
-            "skor_kerentanan_sosial",
-            "prioritas_intervensi",
-            "persentase_penduduk_miskin",
-            "indeks_keparahan_kemiskinan",
-            "tingkat_pengangguran_terbuka",
-            "indeks_pembangunan_manusia",
-        ]
-    ].to_dict("records")
-
-    report_lines = [
-        "# Preprocessing Quality Report",
-        "",
-        f"Generated at: {datetime.utcnow().isoformat()}Z",
-        "",
-        "## Scope",
-        "",
-        "This report covers the Scrub stage for poverty and social-vulnerability analytics in Jawa Barat.",
-        "The light exploration included here is limited to data-quality profiling and output validation.",
-        "",
-        "## Output Files",
-        "",
-    ]
-    report_lines.extend([f"- `{path}`" for path in output_files])
-    report_lines.extend(
-        [
-            "",
-            "## Integrated Panel",
-            "",
-            f"- Rows: {len(panel)}",
-            f"- Kabupaten/kota count: {panel['kode_kabupaten_kota'].nunique()}",
-            f"- Analysis year range: {int(panel['tahun'].min())} - {int(panel['tahun'].max())}",
-            f"- Latest year with complete intervention-priority score: {int(latest_year)}",
-            f"- Duplicate kabupaten/kota-year keys: {int(panel.duplicated(KEY_COLS).sum())}",
-            "",
-            "## Source Quality Summary",
-            "",
-            markdown_table(
-                summary.to_dict("records"),
-                [
-                    "logical_name",
-                    "source_mode",
-                    "rows_raw",
-                    "rows_clean",
-                    "missing_metric_before_impute",
-                    "invalid_zero_values",
-                    "imputed_values",
-                    "duplicate_key_rows",
-                    "rows_dropped_missing_keys",
-                ],
-            ),
-            "",
-            "## Latest Scored-Year Top Priority Preview",
-            "",
-            markdown_table(
-                top_priority_rows,
-                [
-                    "tahun",
-                    "peringkat_prioritas_intervensi",
-                    "nama_kabupaten_kota",
-                    "skor_kerentanan_sosial",
-                    "prioritas_intervensi",
-                    "persentase_penduduk_miskin",
-                    "indeks_keparahan_kemiskinan",
-                    "tingkat_pengangguran_terbuka",
-                    "indeks_pembangunan_manusia",
-                ],
-            ),
-            "",
-            "## Preprocessing Notes",
-            "",
-            "- Zero placeholders in source metrics are treated as missing because they usually represent unavailable historical records, especially for newer administrative regions.",
-            "- Missing metric values are imputed only for internal gaps with linear interpolation within each kabupaten/kota; leading/trailing structural missing values remain blank.",
-            "- Geographic names are standardized to uppercase to stabilize joins.",
-            "- The intervention priority score excludes garis_kemiskinan from the composite because it is better treated as economic context than direct vulnerability incidence.",
-            "- If `source_mode` is `openapi_fetch`, the raw CSV in `data/raw` was not statistical records and the script fetched records from the endpoint documented in the raw JSON.",
-            "",
-        ]
-    )
-
-    report_path.write_text("\n".join(report_lines), encoding="utf-8")
-    return summary_path, report_path
+    return summary_path
 
 
 def append_manifest(output_dir: Path, panel_path: Path, source_infos: List[Dict[str, Any]], panel: pd.DataFrame) -> Path:
@@ -904,7 +773,7 @@ def run(args: argparse.Namespace) -> Dict[str, Path]:
     panel.to_csv(panel_path, index=False)
     pd.DataFrame(feature_dictionary_rows()).to_csv(dictionary_path, index=False)
     manifest_path = append_manifest(output_dir, panel_path, source_infos, panel)
-    summary_path, report_path = write_quality_outputs(profiles, source_infos, panel, output_dir, report_dir)
+    summary_path = write_quality_outputs(profiles, source_infos, report_dir)
 
     logger.info("Preprocessing completed: %s", panel_path)
     return {
@@ -912,7 +781,6 @@ def run(args: argparse.Namespace) -> Dict[str, Path]:
         "dictionary": dictionary_path,
         "manifest": manifest_path,
         "summary": summary_path,
-        "report": report_path,
     }
 
 
@@ -947,7 +815,7 @@ def parse_args() -> argparse.Namespace:
 if __name__ == "__main__":
     try:
         outputs = run(parse_args())
-        print("Preprocessing selesai. Output:")
+        print("Preprocessing outputs:")
         for name, path in outputs.items():
             print(f"- {name}: {path.relative_to(PROJECT_ROOT)}")
     except Exception as exc:

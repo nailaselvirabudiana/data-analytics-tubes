@@ -1,0 +1,7 @@
+indicator,label,count,mean,std,min,25%,50%,75%,max
+garis_kemiskinan,Poverty line (rupiah/capita/month),27.0,536065.1111111111,125444.28037681276,393464.0,444743.0,475046.0,604956.0,843893.0
+persentase_penduduk_miskin,Poverty rate (percent),27.0,8.014444444444445,2.6485661336093846,2.34,6.36,8.41,10.185,11.93
+indeks_keparahan_kemiskinan,Poverty severity index,27.0,0.27999999999999997,0.12649110640673517,0.07,0.2,0.26,0.355,0.54
+indeks_pembangunan_manusia,Human development index,27.0,73.81444444444445,4.680638790504934,67.24,69.94,72.65,76.645,83.54
+tingkat_pengangguran_terbuka,Open unemployment rate (percent),27.0,6.524814814814816,1.7065087400221777,1.58,6.205,6.73,7.59,8.97
+skor_kerentanan_sosial,skor_kerentanan_sosial,27.0,-8.22387425648264e-18,0.6412097076860028,-1.5019,-0.386,0.0662,0.42774999999999996,1.2018

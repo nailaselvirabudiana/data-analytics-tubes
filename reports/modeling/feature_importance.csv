@@ -1,0 +1,5 @@
+feature,label,eta_squared,anova_f,anova_p
+indeks_keparahan_kemiskinan,Poverty severity index,0.8072,50.2273,0.0
+persentase_penduduk_miskin,Poverty rate,0.7016,28.2174,0.0
+indeks_pembangunan_manusia,Human development index,0.66,23.2923,2e-06
+tingkat_pengangguran_terbuka,Open unemployment rate,0.2385,3.758,0.038034

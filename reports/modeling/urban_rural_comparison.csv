@@ -1,0 +1,6 @@
+feature,label,mean_urban_industri,mean_rural_agraris,cohens_d,welch_p
+indeks_keparahan_kemiskinan,Poverty severity index,0.1638,0.4571,-4.7725,1e-06
+persentase_penduduk_miskin,Poverty rate,4.9162,10.6229,-4.0673,3e-06
+indeks_pembangunan_manusia,Human development index,79.5162,70.6571,3.0014,7.9e-05
+garis_kemiskinan,Poverty line,677846.625,475338.2857,2.0028,0.002282
+tingkat_pengangguran_terbuka,Open unemployment rate,7.7637,6.2371,1.4082,0.019084
