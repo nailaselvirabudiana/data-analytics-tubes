@@ -5,7 +5,7 @@ import logging
 import os
 import re
 import shutil
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
@@ -13,12 +13,20 @@ import pandas as pd
 import requests
 
 
-# 1. Pastikan folder arsitektur mentah tersedia sesuai standar tugas besar.
-os.makedirs("data/raw", exist_ok=True)
-os.makedirs("data/manifest", exist_ok=True)
-os.makedirs("logs", exist_ok=True)
+# Tentukan root direktori proyek agar relative path selalu konsisten
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+RAW_DIR = PROJECT_ROOT / "data" / "raw"
+ARCHIVE_DIR = PROJECT_ROOT / "data" / "archive"
+MANIFEST_PATH = PROJECT_ROOT / "data" / "manifest" / "ingest_manifest.csv"
+LOG_DIR = PROJECT_ROOT / "logs"
 
-logfile = Path("logs/ingest.log")
+# 1. Pastikan folder arsitektur mentah tersedia sesuai standar tugas besar.
+RAW_DIR.mkdir(parents=True, exist_ok=True)
+ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+logfile = LOG_DIR / "ingest.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
@@ -30,8 +38,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://data.jabarprov.go.id"
-RAW_DIR = Path("data/raw")
-MANIFEST_PATH = Path("data/manifest/ingest_manifest.csv")
 
 if not MANIFEST_PATH.exists():
     with MANIFEST_PATH.open("w", encoding="utf-8", newline="") as mf:
@@ -173,7 +179,7 @@ def append_manifest(
         writer = csv.writer(mf)
         writer.writerow(
             [
-                datetime.utcnow().isoformat(),
+                datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
                 logical_name,
                 stored_filename,
                 source_url,
@@ -192,10 +198,15 @@ def update_latest_copy(stored_json: Path, stored_csv: Path, logical_name: str) -
 
 
 def apply_retention(logical_name: str, keep_latest: int = 5) -> None:
+    """Apply retention policy to archived versions.
+
+    This will keep the `keep_latest` most recent timestamped versions in `data/archive`
+    and remove older ones. The `data/raw` folder always keeps only the latest copies.
+    """
     pattern = re.compile(rf"^{re.escape(logical_name)}_(\d{{8}}T\d{{6}}Z)\.(json|csv)$")
     versions: Dict[str, List[Path]] = {}
 
-    for path in RAW_DIR.iterdir():
+    for path in ARCHIVE_DIR.iterdir():
         match = pattern.match(path.name)
         if match:
             versions.setdefault(match.group(1), []).append(path)
@@ -209,9 +220,9 @@ def apply_retention(logical_name: str, keep_latest: int = 5) -> None:
         for path in paths:
             try:
                 path.unlink()
-                logger.info("Deleted old version: %s", path.name)
+                logger.info("Deleted old archived version: %s", path.name)
             except Exception:
-                logger.warning("Failed to delete old version: %s", path.name)
+                logger.warning("Failed to delete old archived version: %s", path.name)
 
 
 def fetch_and_save(logical_name: str, doc_url: str) -> bool:
@@ -245,15 +256,15 @@ def fetch_and_save(logical_name: str, doc_url: str) -> bool:
             )
             return True
 
-        ingest_time = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+        ingest_time = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
         stored_base = f"{logical_name}_{ingest_time}"
-        stored_json = RAW_DIR / f"{stored_base}.json"
-        stored_csv = RAW_DIR / f"{stored_base}.csv"
+        stored_json = ARCHIVE_DIR / f"{stored_base}.json"
+        stored_csv = ARCHIVE_DIR / f"{stored_base}.csv"
 
         raw_payload = {
             "source_doc_url": doc_url,
             "source_data_url": data_endpoint,
-            "ingest_time_utc": datetime.utcnow().isoformat() + "Z",
+            "ingest_time_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             "metadata": metadata,
             "data": records,
         }
