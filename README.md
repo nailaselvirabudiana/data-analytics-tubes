@@ -149,3 +149,23 @@ Modeling outputs as CSV, with the model summary, priority matrix, and limitation
 - `reports/modeling/feature_importance.csv`
 - `reports/modeling/urban_rural_comparison.csv`
 - `reports/modeling/priority_matrix.csv`
+
+## Visualization Dashboard
+
+The Streamlit dashboard renders the exploration and modeling outputs for decision support:
+
+- summary KPIs and latest priority regions
+- province and regional trends
+- regional comparison and indicator correlation
+- vulnerability clusters and intervention priority matrix
+- data coverage and validation results
+
+Run the dashboard from the repository root:
+
+```bash
+uv sync
+uv run streamlit run dashboard/app.py
+```
+
+The dashboard reads the generated CSV files directly. Rerun the preprocessing, exploration, and
+modeling scripts before the dashboard when the raw sources change.
