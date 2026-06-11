@@ -107,8 +107,8 @@ uv run python scripts/preprocess_data.py --no-fetch-openapi
 
 ## Explore and Model
 The analyst and modeler owns the E - Explore and M - Model stages
-Explore computes the numeric findings such as descriptive statistics, correlation, trend, and comparison, while chart rendering is handed to the visualization developer
-Model clusters the regions, profiles the clusters, ranks feature importance, and builds the intervention priority matrix
+Explore computes the numeric findings such as descriptive statistics, correlation, trend, and comparison, and the notebook Explore section adds four exploratory charts covering distribution, time trend, relationship, and regional comparison; the interactive decision views stay with the visualization developer in the dashboard
+Model clusters the regions, profiles the clusters, ranks feature importance, and builds the intervention priority matrix; the notebook Model section adds four charts covering the cluster map in PCA space, the archetype profiles, the separator ranking, and the priority matrix
 
 The analysis unit is kabupaten/kota; the desa level in the title is not available from the obtained sources, so it stays out of scope
 
