@@ -123,7 +123,35 @@ def vulnerability_ranking(frame: pd.DataFrame) -> go.Figure:
         title="Wilayah Paling dan Paling Tidak Rentan",
         labels={"skor_kerentanan_sosial": "Skor kerentanan sosial", "nama_kabupaten_kota": ""},
     )
-    return polish(fig, 480)
+    return polish(fig, 560)
+
+
+def correlation_heatmap(frame: pd.DataFrame) -> go.Figure:
+    labels = {
+        "garis_kemiskinan": "Garis Kemiskinan",
+        "persentase_penduduk_miskin": "Penduduk Miskin",
+        "indeks_keparahan_kemiskinan": "Keparahan Kemiskinan",
+        "indeks_pembangunan_manusia": "IPM",
+        "tingkat_pengangguran_terbuka": "Pengangguran Terbuka",
+    }
+    matrix = frame.set_index("indicator")
+    matrix = matrix.rename(index=labels, columns=labels)
+    fig = px.imshow(
+        matrix,
+        text_auto=".2f",
+        zmin=-1,
+        zmax=1,
+        color_continuous_midpoint=0,
+        color_continuous_scale=["#dc2626", "#f8fafc", "#2563eb"],
+        title="Korelasi Antar-Indikator",
+        labels={"x": "", "y": "", "color": "Korelasi"},
+        aspect="auto",
+    )
+    fig.update_xaxes(side="top", tickangle=0)
+    fig.update_traces(
+        hovertemplate="<b>%{y}</b> dan <b>%{x}</b><br>Korelasi: %{z:.2f}<extra></extra>"
+    )
+    return polish(fig, 590)
 
 
 def poverty_ipm_scatter(frame: pd.DataFrame) -> go.Figure:
@@ -175,8 +203,14 @@ def priority_heatmap(frame: pd.DataFrame) -> go.Figure:
         color_continuous_scale=["#ecfdf5", "#fef3c7", "#fee2e2", "#b91c1c"],
         title="Matriks Prioritas Intervensi",
         labels={"x": "Tren kemiskinan", "y": "Level kerentanan", "color": "Jumlah wilayah"},
+        aspect="auto",
     )
-    return polish(fig, 400)
+    fig.update_traces(
+        textfont=dict(size=18),
+        hovertemplate="Kerentanan: <b>%{y}</b><br>Tren: <b>%{x}</b><br>"
+        "Jumlah wilayah: <b>%{z}</b><extra></extra>",
+    )
+    return polish(fig, 500)
 
 
 def cluster_profile_bars(frame: pd.DataFrame) -> go.Figure:

@@ -1,6 +1,6 @@
 import streamlit as st
 
-from dashboard.charts import poverty_ipm_scatter, vulnerability_ranking
+from dashboard.charts import correlation_heatmap, poverty_ipm_scatter, vulnerability_ranking
 from dashboard.data_loader import load_many
 
 
@@ -13,14 +13,15 @@ def render() -> None:
 
     st.plotly_chart(poverty_ipm_scatter(clusters), width="stretch")
 
-    left, right = st.columns([1.3, 1])
-    with left:
+    with st.container(border=True):
         st.plotly_chart(vulnerability_ranking(data["top_bottom"]), width="stretch")
-    with right:
+
+    with st.container(border=True):
         st.subheader("Kabupaten vs Kota")
         comparison = data["admin_comparison"].rename(
             columns={
                 "tipe_administratif": "Tipe",
+                "garis_kemiskinan": "Garis Kemiskinan",
                 "persentase_penduduk_miskin": "Kemiskinan (%)",
                 "indeks_keparahan_kemiskinan": "Keparahan",
                 "indeks_pembangunan_manusia": "IPM",
@@ -28,7 +29,23 @@ def render() -> None:
                 "jumlah_wilayah": "Jumlah wilayah",
             }
         )
-        st.dataframe(comparison, hide_index=True, width="stretch")
-        st.subheader("Korelasi Indikator")
-        st.dataframe(data["correlation"].round(2), hide_index=True, width="stretch")
+        st.dataframe(
+            comparison,
+            hide_index=True,
+            width="stretch",
+            column_config={
+                "Garis Kemiskinan": st.column_config.NumberColumn(
+                    "Garis Kemiskinan", format="Rp %,.0f"
+                ),
+                "Kemiskinan (%)": st.column_config.NumberColumn("Kemiskinan (%)", format="%.2f"),
+                "Keparahan": st.column_config.NumberColumn("Keparahan", format="%.3f"),
+                "IPM": st.column_config.NumberColumn("IPM", format="%.2f"),
+                "Pengangguran (%)": st.column_config.NumberColumn(
+                    "Pengangguran (%)", format="%.2f"
+                ),
+            },
+        )
+
+    with st.container(border=True):
+        st.plotly_chart(correlation_heatmap(data["correlation"]), width="stretch")
         st.caption("Korelasi menunjukkan hubungan statistik, bukan sebab-akibat.")
